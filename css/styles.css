@@ -1,65 +1,169 @@
+*{
+    box-sizing: border-box;
+    color: #777;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    height: 100%;
+}
 body{
-    background-color: #3c55f3;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(12, 1, 14);
+
+}
+
+.home-header{
+    padding: 200px;
+    background-image: url("/Images/temp street img.jpg");
+    background-size: cover;
+}
+.home-header h1{
+    color: white;
+    align-items: center;
 }
 
 
 
-.vakje {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size:30px;
-    border-style: solid;
-    border-width: 10px;
+.nav ul{
+    margin: 0;
+    padding: 0;
+}
+.nav Li{
+    display: inline;
+}
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.main-header h1{
+    text-align: center;
+    color: rgba(255, 255, 255);
+    margin: 0;
+    padding-top:  30px;
+    margin-bottom: 30px;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-top: 1px solid white;
+}
+
+.main-nav a{
+    color: white;
+    
+}
+.main-nav li{
+    padding:  0 1%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-header{
+    background-color: rgb(30, 13, 48);
+
+}
+
+.content{
+    flex: 1 0 auto;
+}
+
+
+.main-footer{
     flex-shrink: 0;
+    width: 100%;
+    background-color: rgb(30, 13, 48);
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer h3{
+    color: white;
+    font-weight: lighter;
+    font-size: 1.1em;;
+}
+
+.main-footer a{
+    color: white;
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container nav{
     flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+}
+
+
+
+.art-button{
+    height: 300px;
+    background-color: rgb(70, 8, 61);
+    margin: 20px;
+
+}
+
+.art-container{
+
+
+    height: 230px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    min-height: 230px;
+    background-color: rgb(70, 8, 61);
+}
+
+.art-container img{
+    transition-duration: 300ms;
+
+}
+
+.art-container img:hover{
+    transform: scale(1.2);
+}
+.art-button h4{
     text-align: center;
-    border-color: #1ac8d4;
-
+    font-size: 1.5em;
+    color: white;
+    margin-top: 20px;
 }
 
-.header {
-    display:flex;
-    flex-direction: row;
-    background-image: linear-gradient(#1a2ae6, #29f5ff);
+.art-button img{
+    width: 400px;
+    
 }
 
-.updatelog {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-    border-style:solid;
-    border-width:10xp;
-    color:blue;
-    margin:10px 100px 0;
-    background-color:rgb(41, 181, 206)
+.art-buttons{
+    justify-content: center;
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.art-searcher h1{
+    font-size: 2.2em;
 }
 
-.container {
-    width:100% - 10px;
-    /* border-style: solid;
-    border-color: red;
-    border-width: 10px; */
+.art-searcher{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
-
-.game {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:60px;
-    text-align: center;
-    background: blue;
-    color:white;
-    border:10px;
-    border-style: solid;
-    border-color:green;
-    margin:10px 100px 0;
-}
-
-.game h2 {
-    font-size:30px;
-}
-
-.game a {
-    color: yellow;
-}
-
-.gamebuttonimage {
-    max-width:100%;
-}
-

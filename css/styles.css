@@ -27,6 +27,9 @@ body{
 
 
 
+
+
+
 .nav ul{
     margin: 0;
     padding: 0;
@@ -113,16 +116,21 @@ body{
 
 
 
-.art-button{
+.picture-button{
     height: 300px;
     background-color: rgb(70, 8, 61);
     margin: 20px;
+    border: none;
+    padding: 0;
+
 
 }
 
-.art-container{
+.picture-button a{
+    text-decoration: none;
+}
 
-
+.picture-container{
     height: 230px;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -130,38 +138,118 @@ body{
     background-color: rgb(70, 8, 61);
 }
 
-.art-container img{
+.picture-container img{
     transition-duration: 300ms;
 
 }
 
-.art-container img:hover{
+.picture-container img:hover{
     transform: scale(1.2);
 }
-.art-button h4{
+.picture-button h4{
     text-align: center;
     font-size: 1.5em;
     color: white;
     margin-top: 20px;
 }
 
-.art-button img{
+.picture-button img{
     width: 400px;
     
 }
 
-.art-buttons{
+.picture-buttons{
     justify-content: center;
 
     display: flex;
     flex-wrap: wrap;
 
 }
-.art-searcher h1{
-    font-size: 2.2em;
+
+
+
+
+.home-nav{
+    margin: 20px;
+    border: 0;
+    transition-duration: 300ms;
+
+    
 }
 
-.art-searcher{
+.home-nav h1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 300px;
+    height: 300px;
+    color: white;
+    
+
+    font-size: 2em;
+}
+
+.home-nav:hover{
+    transform: scale(1.2);
+
+}
+.home-nav a{
+    text-decoration: none;
+    margin: 0;
+
+}
+.home-nav-games{
+    background-image: url("/Images/compter temp.PNG");
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    background-size: cover;
+
+}
+
+.home-nav-art{
+    background-image: url("/Images/art temp.jpg");
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    background-size: cover;
+
+
+}
+.home-nav-about{
+    background-image: url("/Images/ivo 19-2-2021.JPG");
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.home-nav-info{
+    background-image: url("/Images/extra\ info\ temp.jpg");
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    background-size: cover;
+
+}
+
+.home-nav-container img{
+    transition-duration: 300ms;
+
+}
+
+.home-nav-container img:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+.page-title h1{
+    font-size: 2.2em;
+    color: white;
+    font-weight: lighter;
+
+}
+
+.page-title{
     display: flex;
     flex-direction: column;
     align-items: center;

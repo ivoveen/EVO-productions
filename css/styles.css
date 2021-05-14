@@ -255,3 +255,16 @@ body{
     align-items: center;
     
 }
+
+.WIP-text{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-top: 1px solid white;
+
+    text-align: center;
+    font-size: 1.5em;
+    color: #777;
+    margin-top: 20px;    
+
+}

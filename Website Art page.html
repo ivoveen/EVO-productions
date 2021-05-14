@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <script src="./js/script.js"></script>
     <title>Evo productions | Art</title>
     <meta name="description" content="The home page for EVO productions">
     <link rel="stylesheet" href="./css/styles.css">
@@ -9,7 +10,6 @@
 
 <body>
     <content class="content">
-
         <header class="main-header">
             <h1> EVO Productions</h1>
             <nav class="nav main-nav">
@@ -22,7 +22,6 @@
                 </ul>
             </nav>
         </header>
-
 
         <section class="page-title art-searcher">
             <div>
@@ -56,65 +55,14 @@
             </div>
         </section>
 
-        <section class="picture-buttons">
-
-            <div class="picture-button">
-                <div class="picture-container">
-                    <img src="Images/ivo 19-2-2021.JPG">
-                </div>
-                <h4> Pixel art Ivo</h4>
-            </div>
-
-            <div class="picture-button">
-                <div class="picture-container">
-                    <img src="Images/katana pixeldailies 2.png" style="position: relative; top: -180px;">
-                </div>
-                <h4> Pixel art katana</h4>
-
-            </div>
-
-            <div class="picture-button">
-                <div class="picture-container">
-
-                    <img src="Images/space summer room render.png">
-                </div>
-                <h4> Space station lounge</h4>
-
-
-            </div>
-
-            <div class="picture-button">
-                <div class="picture-container">
-
-                    <img src="Images/Zuko light.jpg" style="position: relative; top: -120px;">
-
-                </div>
-                <h4> Realistic prince Zuko</h4>
-
-            </div>
-
-            <div class="picture-button">
-                <div class="picture-container">
-                    <img src="Images/Kid Technician.JPG" style="position: relative; top: -80px;">
-                </div>
-                <h4> Kid technician</h4>
-            </div>
-
-            <div class="picture-button">
-                <div class="picture-container">
-                    <img src="Images/cardboard cybertruck full ide.jpg" style="position: relative; top: -40px;">
-                </div>
-                <h4> Carboard cybertruck</h4>
-            </div>
-
-
+        <section class="picture-buttons" id="artSection">
+           <!-- PlaceHolder for Art      -->
         </section>
     </content>
 
 
     <footer class="main-footer">
         <div class="container main-footer-container">
-
             <h3>
                 EVO productions
             </h3>
@@ -126,9 +74,14 @@
                     <li> <a href="https://twitter.com/veen_ivo" target="_blank"> Twitter </a> </li>
                 </ul>
             </nav>
-
         </div>
     </footer>
+
+
+    <script> 
+        RenderArt("/data/art.json");
+    </script>
+
 </body>
 
 </html>

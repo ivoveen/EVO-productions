@@ -1,0 +1,38 @@
+{
+    "Art": [
+        {
+            "Name":"Pixel art Ivo",
+            "Url":"/Images/ivo 19-2-2021.JPG",
+            "Tags":["All","Pixel Art","Digital"],
+            "Top":0
+        },
+        {
+            "Name":"Pixel art katana",
+            "Url":"/Images/katana pixeldailies 2.png",
+            "Tags":["All","Pixel Art","Digital"],
+            "Top":-180
+        },
+        {
+            "Name":"Space station lounge",
+            "Url":"/Images/space summer room render.png",
+            "Tags":["All","3D Renders","Digital"],
+            "Top":0
+        },
+        {
+            "Name":"Realistic prince Zuko",
+            "Url":"/Images/Zuko light.jpg",
+            "Tags":["All","Pencil","Traditional"],
+            "Top":-120
+        },        {
+            "Name":"Kid technician",
+            "Url":"/Images/Kid Technician.JPG",
+            "Tags":["All","Pixel Art","Digital"],
+            "Top":-80
+        },        {
+            "Name":"Carboard cybertruck",
+            "Url":"/Images/cardboard cybertruck full ide.jpg",
+            "Tags":["All","Crafts","Traditional"],
+            "Top":-40
+        }
+    ]
+}

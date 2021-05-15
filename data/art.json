@@ -3,9 +3,15 @@
         {
             "Name":"Pixel art Ivo",
             "Url":"/Images/ivo 19-2-2021.JPG",
-            "Tags":["All","Pixel Art","Digital"],
+            "Tags":["All","Pixel Art","Digital", "Ivo"],
             "Top":0
         },
+        {
+            "Name":"Realistic prince Zuko",
+            "Url":"/Images/Zuko light.jpg",
+            "Tags":["All","Pencil","Traditional", "Portraits","Fanart"],
+            "Top":-120
+        },  
         {
             "Name":"Pixel art katana",
             "Url":"/Images/katana pixeldailies 2.png",
@@ -13,26 +19,541 @@
             "Top":-180
         },
         {
+            "Name":"Pixel art Damn",
+            "Url":"/Images/dam pixeldailies 3.png",
+            "Tags":["All","Pixel Art","Digital"],
+            "Top":0
+        },
+        {
             "Name":"Space station lounge",
             "Url":"/Images/space summer room render.png",
             "Tags":["All","3D Renders","Digital"],
             "Top":0
-        },
+        }, 
         {
-            "Name":"Realistic prince Zuko",
-            "Url":"/Images/Zuko light.jpg",
-            "Tags":["All","Pencil","Traditional", "Portraits"],
+            "Name":"Imagine Dragons poster",
+            "Url":"Images/imagine dragons fx smoke only 5.png",
+            "Tags":["All","Digital","3D Renders", "School projects"],
             "Top":-120
-        },        {
+        },   
+        {
+            "Name":"Davy Jones",
+            "Url":"/Images/Davy jones 29-3-2020.jpg",
+            "Tags":["All","Pencil","Traditional", "Portraits","Fanart"],
+            "Top":-120
+        },           
+        {
             "Name":"Kid technician",
             "Url":"/Images/Kid Technician.JPG",
             "Tags":["All","Pixel Art","Digital"],
             "Top":-80
-        },        {
+        },      
+        {
             "Name":"Carboard cybertruck",
             "Url":"/Images/cardboard cybertruck full ide.jpg",
             "Tags":["All","Crafts","Traditional"],
             "Top":-40
+        },
+        {
+            "Name":"Swimming turtle Animation",
+            "Url":"/Images/turtle swim 12fps.gif",
+            "Tags":["All","Krita","Digital","Animation"],
+            "Top":-20
+        },
+        {
+            "Name":"Pogchamp watercolour",
+            "Url":"/Images/pogchamp screenshot.JPG",
+            "Tags":["All","Portraits","Digital","Rebelle"],
+            "Top":-20
+        },
+        {
+            "Name":"Lovely Panda",
+            "Url":"/Images/you got this panda.jpg",
+            "Tags":["All","Traditional","Pencil"],
+            "Top":-20
+        },
+        {
+            "Name":"Teddy bear",
+            "Url":"/Images/Teddy Bear complexer2.jpg",
+            "Tags":["All","Pencil","Traditional"],
+            "Top":-60
+        },
+        {
+            "Name":"Hands up",
+            "Url":"/Images/Hands up.jpg",
+            "Tags":["All","Traditional","Pencil","Self-study Anatomy"],
+            "Top": -80
+        },
+        
+        {
+            "Name":"Idle Warrior",
+            "Url":"Images/warrior idle.gif",
+            "Tags":["All","Pixel Art","Digital","Animation"],
+            "Top":-20
+        },
+        {
+            "Name":"Running man",
+            "Url":"/Images/denim man running pixeldailies 4.png",
+            "Tags":["All","Pixel Art","Digital"],
+            "Top":-20
+        },
+        {
+            "Name":"Lonely Night",
+            "Url":"/Images/lonely night.png",
+            "Tags":["All","Krita","Digital"],
+            "Top":-20
+        },
+        {
+            "Name":"Blinking man",
+            "Url":"/Images/Blinking guy (blender).gif",
+            "Tags":["All","Krita","Digital","Animation"],
+            "Top":-20
+        },
+        {
+            "Name":"Dionysos Greek God",
+            "Url":"/Images/Bacchus old 24-4-2021.jpg",
+            "Tags":["All","Traditional","Pencil","Self-study Anatomy"],
+            "Top":-140
+        },
+        {
+            "Name":"Rango study",
+            "Url":"/Images/Rango.JPG",
+            "Tags":["All","Krita","Digital","Self-study Style","Fanart"],
+            "Top":0
+        },
+        {
+            "Name":"Rango study: Spoons",
+            "Url":"/Images/Spoons.JPG",
+            "Tags":["All","Krita","Digital","Self-study Style","Fanart"],
+            "Top":0
+        },
+        {
+            "Name":"Rango study: Priscilla",
+            "Url":"/Images/Priscilla.JPG",
+            "Tags":["All","Krita","Digital","Self-study Style","Fanart"],
+            "Top":0
+        },
+        {
+            "Name":"Beetlejuice",
+            "Url":"/Images/Beetlejuice Beetlegeusse dark.jpg",
+            "Tags":["All","Traditional","Pencil","Fanart"],
+            "Top":0
+        },
+        {
+            "Name":"Creey woman",
+            "Url":"/Images/scribble art doloros.jpg",
+            "Tags":["All","Traditional","Pencil"],
+            "Top":-50
+        },
+        {
+            "Name":"Ivo",
+            "Url":"/Images/ivo2 no signature.JPG",
+            "Tags":["All","Krita","Digital", "Ivo"],
+            "Top":-50
+        },
+        {
+            "Name":"Clover study: Kel",
+            "Url":"/Images/Kel Clover.JPG",
+            "Tags":["All","Krita","Digital","Self-study Style","Fanart"],
+            "Top":0
+        },
+        {
+            "Name":"Clover study: George",
+            "Url":"/Images/George Clover.JPG",
+            "Tags":["All","Krita","Digital","Self-study Style","Fanart"],
+            "Top":0
+        },
+        {
+            "Name":"Clover study: Own attempt",
+            "Url":"/Images/Random Kid Clover.jpg",
+            "Tags":["All","Krita","Digital","Self-study Style","Fanart"],
+            "Top":0
+        },
+        {
+            "Name":"Eye practice Collection",
+            "Url":"/Images/eye sketch  (1)  14-5-2021.jpg",
+            "Tags":["All","Traditional","Pencil","Self-study Anatomy"],
+            "Top": 0
+        },   
+        {
+            "Name":"Cyber spider",
+            "Url":"/Images/Cyber spider at tower 7-5-2021.jpg",
+            "Tags":["All","Traditional","Pencil"],
+            "Top":-140
+        },
+        {
+            "Name":"Katniss Everdeen",
+            "Url":"Images/katniss everdeen.jpg",
+            "Tags":["All","Traditional","Pencil","Fanart","Portraits"],
+            "Top":-140
+        },
+        {
+            "Name":"ASCII Go to jail",
+            "Url":"/Images/ASCII  go to jail 26-4-2021.PNG",
+            "Tags":["All","ASCII","Digital"],
+            "Top":-70
+        },
+        {
+            "Name":"Lily Pichu style study",
+            "Url":"/Images/Lily pichu.JPG",
+            "Tags":["All","Krita","Digital","Self-study Style","Portraits"],
+            "Top":0
+        },
+        {
+            "Name":"Lily Pichu style study: Wilbur Soot",
+            "Url":"/Images/wilbur.JPG",
+            "Tags":["All","Krita","Digital","Self-study Style","Portraits"],
+            "Top":0
+        },
+        {
+            "Name":"Lily Pichu style study: Markiplier",
+            "Url":"/Images/markiplier.JPG",
+            "Tags":["All","Krita","Digital","Self-study Style","Portraits"],
+            "Top":0
+        },
+        {
+            "Name":"Lily Pichu style study: Harry Potter",
+            "Url":"/Images/harry potter cutesy.JPG",
+            "Tags":["All","Krita","Digital","Self-study Style","Portraits"],
+            "Top":0
+        },
+        {
+            "Name":"Pokemon road",
+            "Url":"/Images/Pokemon Road.JPG",
+            "Tags":["All","Digital","Rebelle", "Fanart"],
+            "Top":-0
+        },
+        {
+            "Name":"The edge of sleep fan art",
+            "Url":"/Images/edge of sleep2 (2).jpg",
+            "Tags":["All","Pencil","Traditional", "Portraits","Fanart"],
+            "Top":-50
+        },
+        {
+            "Name":"Jack Sparrow",
+            "Url":"Images/Jack Sparrow 13-2-2020.jpg",
+            "Tags":["All","Pencil","Traditional", "Portraits","Fanart"],
+            "Top":-70
+        },
+        {
+            "Name":"King snail",
+            "Url":"Images/King Snail.jpg",
+            "Tags":["All","Pencil","Traditional"],
+            "Top":-70
+        },
+        {
+            "Name":"Kappa cursed watercolour",
+            "Url":"Images/kappa no eyes screen shot.JPG",
+            "Tags":["All","Digital","Rebelle", "Portraits"],
+            "Top":-0
+        },
+        {
+            "Name":"Human face practice Collection",
+            "Url":"Images/human face study 7.PNG",
+            "Tags":["All","Krita","Digital","Self-study Anatomy"],
+            "Top": 0
+        },
+        {
+            "Name":"Dionysos Greek God young",
+            "Url":"/Images/Bacchus young 24-4-2021.jpg",
+            "Tags":["All","Traditional","Pencil","Self-study Anatomy"],
+            "Top":-100
+        },
+        {
+            "Name":"ASCII chance card",
+            "Url":"/Images/ASCII chance card 25-4-2021.PNG",
+            "Tags":["All","ASCII","Digital"],
+            "Top":-70
+        },
+        {
+            "Name":"Levi Ackermann",
+            "Url":"Images/Levi.jpg",
+            "Tags":["All","Pencil","Traditional","Portraits","Fanart"],
+            "Top":-70
+        },
+        {
+            "Name":"Pokemon pepe",
+            "Url":"/Images/pokemon pepe screenshot.JPG",
+            "Tags":["All","Digital","Rebelle", "Fanart"],
+            "Top":-40
+        },
+        {
+            "Name":"Kevin Mccalisstar",
+            "Url":"Images/Kevin Mccalisstar.jpg",
+            "Tags":["All","Pencil","Traditional","Fanart"],
+            "Top":-70
+        },
+        {
+            "Name":"ASCII diamond",
+            "Url":"/Images/ASCII diamond 25-4-2021.PNG",
+            "Tags":["All","ASCII","Digital"],
+            "Top":-70
+        },
+        {
+            "Name":"Dylan the Cyclops",
+            "Url":"Images/Dylan 21-2-2021.png",
+            "Tags":["All","Krita","Digital"],
+            "Top":-30
+        },
+        {
+            "Name":"ASCII Jail",
+            "Url":"/Images/ASCII jail 25-4-2021.PNG",
+            "Tags":["All","ASCII","Digital"],
+            "Top":0
+        },
+        {
+            "Name":"ASCII station",
+            "Url":"/Images/ASCII station 25-4-2021.PNG",
+            "Tags":["All","ASCII","Digital"],
+            "Top":0
+        },
+        {
+            "Name":"Ivo at Desk",
+            "Url":"/Images/ivo at desk 14-5-2021.JPG",
+            "Tags":["All","Ivo","Digital", "Pixel Art"],
+            "Top":-100
+        },
+        {
+            "Name":"ASCII treasure chest",
+            "Url":"/Images/ASCII treasure chest 25-4-2021.PNG",
+            "Tags":["All","ASCII","Digital"],
+            "Top":-80
+        },
+        {
+            "Name":"Livingroom",
+            "Url":"Images/Livingroom 27-4-2021.jpg",
+            "Tags":["All","Traditional","Pen"],
+            "Top":0
+        },
+        {
+            "Name":"Sailermoon fanart",
+            "Url":"/Images/SailorMoon.jpg",
+            "Tags":["All","Pencil","Traditional","Fanart"],
+            "Top":-40
+        },
+        {
+            "Name":"ASCII water supply",
+            "Url":"/Images/ASCII water supply 25-4-2021.PNG",
+            "Tags":["All","ASCII","Digital"],
+            "Top":0
+        },
+        {
+            "Name":"Human skull",
+            "Url":"/Images/Human skull.jpg",
+            "Tags":["All","Pencil","Traditional", "Portraits"],
+            "Top":-100
+        },
+        {
+            "Name":"Spooky Turtle",
+            "Url":"/Images/Skeleton turtle dark.jpg",
+            "Tags":["All","Pencil","Traditional"],
+            "Top":-100
+        },
+        {
+            "Name":"Christmas Turtle in VR",
+            "Url":"/Images/Turtle VR.png",
+            "Tags":["All","Digital","VR"],
+            "Top":0
+        },
+        {
+            "Name":"Turtle study",
+            "Url":"/Images/Turtle drafts.JPG",
+            "Tags":["All","Digital","Krita","Self-study Anatomy"],
+            "Top":0
+        },
+        {
+            "Name":"Dog practice",
+            "Url":"/Images/Dog fur practice.jpg",
+            "Tags":["All","Pencil","Traditional"],
+            "Top":-80
+        },
+        {
+            "Name":"He put a ring on it",
+            "Url":"/Images/God.jpg",
+            "Tags":["All","Traditional", "Pencil"],
+            "Top":-40
+        },
+        {
+            "Name":"ASCII electric company ",
+            "Url":"/Images/ASCII electric company 25-4-2021.PNG",
+            "Tags":["All","ASCII","Digital"],
+            "Top":0
+        },
+        {
+            "Name":"Bilbo Baggings",
+            "Url":"/Images/Bilbo baggings.jpg",
+            "Tags":["All","Pencil","Traditional", "Portraits","Fanart"],
+            "Top":-70
+        },
+        {
+            "Name":"Disney style: Ivo",
+            "Url":"/Images/Disney Ivo design smile.JPG",
+            "Tags":["All","Digital", "Krita", "Portraits", "Ivo","Self-study Style"],
+            "Top":-40
+        },
+        {
+            "Name":"Disney style practice",
+            "Url":"/Images/Disney practising.JPG",
+            "Tags":["All","Krita","Digital","Self-study Style"],
+            "Top":0
+        },
+        
+        {
+            "Name":"Kermit has had enough",
+            "Url":"Images/Kermit machine gun.jpg",
+            "Tags":["All","Traditional", "Pencil","Fanart"],
+            "Top":-190
+        },
+        {
+            "Name":"I'm holey",
+            "Url":"Images/I'm holey.jpg",
+            "Tags":["All","Traditional", "Pencil"],
+            "Top":-0
+        },
+        {
+            "Name":"Red robin",
+            "Url":"/Images/Bird red Robin 3-5-2021.PNG",
+            "Tags":["All","Digital", "Krita"],
+            "Top":-40
+        },
+        {
+            "Name":"Life of Pi",
+            "Url":"/Images/Life of Pi.jpg",
+            "Tags":["All","Pencil","Traditional","Fanart","Portraits"],
+            "Top":-40
+        },
+        {
+            "Name":"ASCII free parking",
+            "Url":"/Images/ASCII free parking 26-4-2021.PNG",
+            "Tags":["All","ASCII","Digital"],
+            "Top":0
+        },
+        {
+            "Name":"Lion",
+            "Url":"/Images/Lion half.jpg",
+            "Tags":["All","Traditional", "Pencil"],
+            "Top":-40
+        },
+        {
+            "Name":"Radagast",
+            "Url":"/Images/Radagast.jpg",
+            "Tags":["All","Pencil","Traditional", "Portraits","Fanart"],
+            "Top":-70
+        },
+        {
+            "Name":"Girl in the Jungle",
+            "Url":"/Images/girl jungle random.jpg",
+            "Tags":["All","Pencil","Traditional"],
+            "Top":-40
+        },
+        {
+            "Name":"Journey",
+            "Url":"Images/Journey.jpg",
+            "Tags":["All","Traditional","Pencil"],
+            "Top":-100
+        },
+        {
+            "Name":"Tucan",
+            "Url":"/Images/Bird Tucan 3-5-2021.PNG",
+            "Tags":["All","Digital", "Krita"],
+            "Top":0
+        },
+        {
+            "Name":"Donut",
+            "Url":"/Images/Blender Render Donut 2(no textures).png",
+            "Tags":["All","3D Renders","Digital"],
+            "Top":0
+        },
+        {
+            "Name":"AoT fanart",
+            "Url":"/Images/AoT dramatic.jpg",
+            "Tags":["All","Pencil","Traditional","Fanart"],
+            "Top":-40
+        },
+        {
+            "Name":"Bunny",
+            "Url":"/Images/Bunny.jpg",
+            "Tags":["All","Pencil","Traditional"],
+            "Top":-40
+        },
+        {
+            "Name":"Bunny 2",
+            "Url":"/Images/bunny sketch 2.jpg",
+            "Tags":["All","Pencil","Traditional"],
+            "Top":-40
+        },
+        {
+            "Name":"Melon to phone factory",
+            "Url":"/Images/BV machine.jpg",
+            "Tags":["All","School projects","Traditional","Pen"],
+            "Top":0
+        },
+        {
+            "Name":"Small planet",
+            "Url":"/Images/BV Planet drawing.jpg",
+            "Tags":["All","Pencil","School projects","Traditional"],
+            "Top":-40
+        },
+        {
+            "Name":"Abe fanart",
+            "Url":"/Images/abe (wilford motherloving warfstache).jpg",
+            "Tags":["All","Fanart","Traditional","Pencil"],
+            "Top":-20
+        },
+        {
+            "Name":"Rue fanart",
+            "Url":"/Images/Rue 25-4-2021.jpg",
+            "Tags":["All","Pencil","Fanart","Traditional","Portraits"],
+            "Top":-180
+        },
+        {
+            "Name":"Halloween character sketches",
+            "Url":"/Images/halloween oc sketches.jpg",
+            "Tags":["All","Pencil","Traditional"],
+            "Top":0
+        },
+        {
+            "Name":"Carboard Porsche",
+            "Url":"/Images/Cardboard Porsch front.jpg",
+            "Tags":["All","Crafts","Traditional"],
+            "Top":0
+        },
+        {
+            "Name":"Christmas dog",
+            "Url":"/Images/Christmas Label Dog alone 5-12-2020.JPG",
+            "Tags":["All","Digital","Krita"],
+            "Top":-40
+        },
+        {
+            "Name":"Small dragon",
+            "Url":"/Images/dragon small 30-4-2021   1-5-2021.PNG",
+            "Tags":["All","Digital","Krita"],
+            "Top":-10
+        },
+        {
+            "Name":"Christmas reindeer",
+            "Url":"/Images/Christmas Label Reindeer alone 5-12-2020.JPG",
+            "Tags":["All","Digital","Krita"],
+            "Top":-40
+        },
+        {
+            "Name":"Feelings",
+            "Url":"/Images/feelings sketch.jpg",
+            "Tags":["All","Traditional","Pencil", "Ivo"],
+            "Top":-120
+        },
+        {
+            "Name":"Space dinosaur",
+            "Url":"/Images/scribble art mars dino.jpg",
+            "Tags":["All","Traditional","Pencil"],
+            "Top":-120
+        },
+        {
+            "Name":"Christmas tree",
+            "Url":"/Images/Christmas Label Tree alone 5-12-2020.JPG",
+            "Tags":["All","Digital","Krita"],
+            "Top":-40
         }
+        
     ]
 }

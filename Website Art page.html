@@ -33,16 +33,56 @@
                     Search by tag:
                 </div>
 
-                <button> Video's</button>
-                <button> Pencil art </button>
-                <button> Digital art </button>
-                <button> Pixel art</button>
-                <button> 3D renders</button>
-                <button> Crafts </button>
-                <button> Portraits</button>
-                <button> Animals</button>
-                <button> Fantasy </button>
+                <div class="picture-buttons" id="tagSection">
 
+
+                    <div>
+                        <button onclick="artRenderer.toggleFilter('PixelArt')"  class="tag">
+                            <h4>PixelArt</h4>
+                        </button>
+                    </div>
+                    <div>
+                        <button class="tag">
+                            <h4>Pencil Art</h4>
+                        </button>
+                    </div>
+                    <div>
+                        <button class="tag">
+                            <h4>Digital Art</h4>
+                        </button>
+                    </div>
+                    <div>
+                        <button class="tag">
+                            <h4>PixelArt</h4>
+                        </button>
+                    </div>
+                    <div>
+                        <button class="tag">
+                            <h4>3D renders</h4>
+                        </button>
+                    </div>
+                    <div>
+                        <button class="tag">
+                            <h4>Crafts</h4>
+                        </button>
+                    </div>
+                    <div>
+                        <button class="tag">
+                            <h4>Portraits</h4>
+                        </button>
+                    </div>
+                    <div>
+                        <button class="tag">
+                            <h4>Animals</h4>
+                        </button>
+                    </div>
+
+                    <div>
+                        <button class="tag">
+                            <h4>Fantasy</h4>
+                        </button>
+                    </div>
+                </div>
             </div>
 
             <div>
@@ -56,7 +96,7 @@
         </section>
 
         <section class="picture-buttons" id="artSection">
-           <!-- PlaceHolder for Art      -->
+            <!-- PlaceHolder for Art      -->
         </section>
     </content>
 
@@ -78,8 +118,9 @@
     </footer>
 
 
-    <script> 
-        RenderArt("/data/art.json");
+    <script>
+        artRenderer = new Artwork("/data/art.json");
+        
     </script>
 
 </body>

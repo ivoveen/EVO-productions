@@ -145,6 +145,7 @@ body{
 
 .picture-container img:hover{
     transform: scale(1.2);
+    cursor: pointer;
 }
 .picture-button h4{
     text-align: center;
@@ -160,10 +161,8 @@ body{
 
 .picture-buttons{
     justify-content: center;
-
     display: flex;
     flex-wrap: wrap;
-
 }
 
 
@@ -267,4 +266,46 @@ body{
     color: #777;
     margin-top: 20px;    
 
+}
+
+.tag{
+    border: none;
+    background: none;
+   
+    background-color: rgb(30, 13, 48);
+    border-radius: 25px;
+
+    border: 1px solid rgb(89, 65, 114);
+
+    padding-top: 5px;
+    margin:5px;
+}
+
+.tag h4{
+    color: white;
+    margin: 10px;
+    padding: 0;
+}
+.tag:hover{
+    background-color: rgb(89, 65, 114);
+    cursor: pointer;
+}
+
+.selected-tag{
+    border: none;
+    background: none;
+   
+    background-color: rgb(89, 65, 114);
+    border-radius: 25px;
+
+    border: 1px solid rgb(89, 65, 114);
+
+    padding-top: 5px;
+    margin:5px;
+}
+
+.selected-tag h4{
+    color: white;
+    margin: 10px;
+    padding: 0;
 }

@@ -110,7 +110,7 @@ class Artwork {
 
         this.filteredTags.forEach((tag) => { this.renderTag(tag); });
     }
-
+ z               
     renderTag(tag) {
 
         let style = this.selectedTags.includes(tag) ? "selected-tag" : "tag"

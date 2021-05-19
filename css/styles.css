@@ -312,21 +312,11 @@ body{
     padding: 0;
 }
 
-
-
-
 .about-me-text-head h1{
-    margin: 0px;
-    margin-left: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     font-size: 5em;
-    color: white;
 
-}
-.about-me-text-head h4{
-    margin: 0px;
-    padding: 0px;
-    font-size: 2em;
-    margin-left: 10%;
 }
 
 .info-panel{
@@ -392,6 +382,6 @@ body{
     margin-right: auto;
     width: 50%;
     border-radius: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
 }
 

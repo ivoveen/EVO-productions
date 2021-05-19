@@ -289,6 +289,8 @@ body{
 .tag:hover{
     background-color: rgb(89, 65, 114);
     cursor: pointer;
+    
+    border: 1px solid rgb(117, 98, 138);
 }
 
 .selected-tag{
@@ -309,3 +311,87 @@ body{
     margin: 10px;
     padding: 0;
 }
+
+
+
+
+.about-me-text-head h1{
+    margin: 0px;
+    margin-left: 10%;
+    font-size: 5em;
+    color: white;
+
+}
+.about-me-text-head h4{
+    margin: 0px;
+    padding: 0px;
+    font-size: 2em;
+    margin-left: 10%;
+}
+
+.info-panel{
+    background-color: rgb(30, 13, 48);
+    width: 400px;
+    margin: 10px;
+    -webkit-box-shadow: 6px 6px 2px 2px rgb(89, 65, 114); 
+    box-shadow: 6px 6px 2px 1px rgb(89, 65, 114);
+    
+}
+.info-panel h4{
+    margin: 0px;
+    padding: 10px;
+    color: white;
+    font-size: 1.4em;
+}
+.info-panel h3{
+    margin: 0px;
+    padding: 10px;
+    color: white;
+}
+.info-panel ul{
+    margin: 0px;
+    padding: 10px;
+    text-decoration: none;
+}
+.info-panel li{
+    font-size: 150%;
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
+
+.info-panels{
+    display: flex;
+    flex-direction:column;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+.about-me-content{
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 20%;
+    display: flex;
+}
+
+.about-me-content h4{
+    font-size: 2em;
+    margin: 0px;
+}
+
+.about-me-content p{
+    font-size: 1.5em ;
+}
+
+.about-me-spacing{
+    margin-top: 150px;
+}
+.about-me-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+

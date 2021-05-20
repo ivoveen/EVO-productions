@@ -331,6 +331,10 @@ body{
     background-color: rgb(30, 13, 48);
     width: 400px;
     margin: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
     -webkit-box-shadow: 6px 6px 2px 2px rgb(89, 65, 114); 
     box-shadow: 6px 6px 2px 1px rgb(89, 65, 114);
     

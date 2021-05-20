@@ -10,6 +10,7 @@
 
 <body>
     <content class="content">
+
         <header class="main-header">
             <h1> EVO Productions</h1>
             <nav class="nav main-nav">
@@ -27,15 +28,11 @@
             <div>
                 <h1>Artworks</h1>
             </div>
-
             <div>
                 <div>
                     Search by tag:
                 </div>
-
                 <div class="picture-buttons" id="tagSection">
-
-
                     <div>
                         <button onclick="artRenderer.toggleFilter('PixelArt')"  class="tag">
                             <h4>PixelArt</h4>
@@ -45,7 +42,6 @@
                     <img src="Images/Radagast.jpg">
                 </div>
             </div>
-
             <div>
                 <div>
                     Search by name:
@@ -60,7 +56,6 @@
             <!-- PlaceHolder for Art      -->
         </section>
     </content>
-
 
     <footer class="main-footer">
         <div class="container main-footer-container">
@@ -77,7 +72,6 @@
             </nav>
         </div>
     </footer>
-
 
     <script>
         artRenderer = new Artwork("/data/art.json");

@@ -7,6 +7,8 @@ html,body{
     padding: 0;
     border: 0px;
     height: 100%;
+
+    font: 400 13.3333px Arial
 }
 body{
     display: flex;
@@ -242,7 +244,7 @@ body{
 
 
 .page-title h1{
-    font-size: 2.2em;
+    font-size: 5.2em;
     color: white;
     font-weight: lighter;
 
@@ -319,6 +321,12 @@ body{
 
 }
 
+.about-me-text{
+    background-color: rgb(70, 8, 61); 
+    padding: 20px;
+    border-radius: 25px;
+}
+
 .info-panel{
     background-color: rgb(30, 13, 48);
     width: 400px;
@@ -359,29 +367,38 @@ body{
 
 .about-me-content{
     margin-top: 1%;
+    margin-bottom: 1%;
     margin-left: 10%;
-    margin-right: 20%;
+    margin-right: 10%;
     display: flex;
+
+    
 }
 
 .about-me-content h4{
     font-size: 2em;
     margin: 0px;
+    color: white;
+
 }
 
 .about-me-content p{
     font-size: 1.5em ;
+    color: white;
+
+}
+.about-me-content a{
+    color: white;
 }
 
-.about-me-spacing{
-    margin-top: 150px;
-}
+
 .about-me-image{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
     width: 50%;
     border-radius: 25px;
-    margin-bottom: 20px; 
+    margin-bottom: 10px; 
 }
 

@@ -132,10 +132,3 @@ class Artwork {
 
 
 }
-
-
-
-
-
-
-

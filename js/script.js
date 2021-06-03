@@ -72,13 +72,18 @@ class Artwork {
     renderArtWork(artWork) {
 
         var output = `
+        
             <div class="picture-button">
                 <div class="picture-container">
-                    <img src="${artWork.Url}" style="position: relative; top: ${artWork.Top}px;">
+                    <a href="Website WIP page.html">
+                        <img src="${artWork.Url}" style="position: relative; top: ${artWork.Top}px;">
+                    </a>
                 </div>
-                <h4>${artWork.Name}</h4>
+                 
             </div>
+        
         `
+// <h4>${artWork.Name}</h4>
         var myElement = document.createElement('div');
         myElement.innerHTML = output
 

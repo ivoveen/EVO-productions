@@ -2,6 +2,21 @@
     box-sizing: border-box;
     color: #777;
 }
+
+
+@font-face {
+    font-family: HeronSansCond;
+    src: url('/Fonts/Font\ Bureau\ -\ HeronSansCond\ Bold.otf');
+}
+@font-face {
+    font-family: Akkurat;
+    src: url('/Fonts/Akkurat.ttf');
+}
+
+
+
+
+
 html,body{
     margin: 0;
     padding: 0;
@@ -27,6 +42,7 @@ body{
 .home-header h1{
     color: white;
     align-items: center;
+    
 }
 
 .nav ul{
@@ -57,6 +73,7 @@ body{
     text-align: center;
     font-size: 1.1em;
     font-weight: lighter;
+    font-family: akurat;
     border-top: 1px solid white;
 }
 
@@ -72,7 +89,7 @@ body{
 
 .main-header{
     background-color: rgb(30, 13, 48);
-
+    font-family: HeronSansCond;
 }
 
 .content{
@@ -176,10 +193,47 @@ body{
 
 
 
+
+.welcome-sign{
+    color: white;
+    background-color: rgb(70, 8, 61 );
+    margin: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+    position: relative;
+
+}
+.welcome-sign p{
+    font-family: akkurat;
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+.welcome-sign h1{
+    font-family: HeronSansCond;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+.welcome-sign:before {
+    content: '';
+
+    position: absolute;
+    top: 0; right: 0;
+    border-top: 80px solid  rgb(12, 1, 14);
+    border-left: 80px solid rgb(70, 8, 61 );
+    width: 0;
+}
+
+
+
 .home-nav{
     margin: 20px;
     border: 0;
     transition-duration: 300ms;
+    font-family: HeronSansCond;
 }
 
 .home-nav h1{
@@ -325,7 +379,7 @@ body{
 }
 
 .about-me-text{
-    background-color: rgb(70, 8, 61); 
+    background-color: rgb(70, 8, 61 );
     padding: 20px;
     border-radius: 25px;
 }
@@ -392,6 +446,7 @@ body{
 .about-me-content p{
     font-size: 1.5em ;
     color: white;
+    font-family: akurat;
 
 }
 .about-me-content a{
@@ -407,5 +462,9 @@ body{
     width: 50%;
     border-radius: 25px;
     margin-bottom: 10px; 
+}
+
+.HeronSansCond{
+    font-family: HeronSansCond;
 }
 

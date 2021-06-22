@@ -34,10 +34,11 @@ body{
 
 .home-header{
     padding: 200px;
-    background-image: url("/Images/temp street img.jpg");
+    background-image: url("/Images/temp street img 3.jpg");
     background-position: center;
-
-    object-fit: cover;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.459);
+    background-blend-mode: multiply;
 }
 .home-header h1{
     color: white;
@@ -141,14 +142,12 @@ body{
     border: 20px;
     border-radius: 25;
     padding: 0;
-    
 }
 
 
 
 .picture-button a{
     text-decoration: none;
-
 }
 
 .picture-container{
@@ -161,7 +160,6 @@ body{
 
 .picture-container img{
     transition-duration: 300ms;
-
 }
 
 .picture-container img:hover{
@@ -186,6 +184,13 @@ body{
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
+}
+
+.Animation-video{
+    width: 600px;
+    height: 350px;
+
+    margin: 40px;
 }
 
 
@@ -297,6 +302,8 @@ body{
     font-weight: lighter;
 }
 .page-title{
+    margin-top: 20px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -321,6 +328,8 @@ body{
     color: #777;
     margin-top: 20px;    
 }
+
+
 
 .tag-section{
     margin-left: 5%;

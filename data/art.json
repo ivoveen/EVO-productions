@@ -30,6 +30,12 @@
             "Tags":["All","3D Renders","Digital"],
             "Top":0
         }, 
+		{
+            "Name":"Good vibes",
+            "Url":"/Images/good vibes.jpg",
+            "Tags":["All","Pencil","Traditional"],
+            "Top":-4
+        }, 
         {
             "Name":"Imagine Dragons poster",
             "Url":"Images/imagine dragons fx smoke only 5.png",
@@ -57,7 +63,7 @@
         {
             "Name":"Swimming turtle Animation",
             "Url":"/Images/turtle swim 12fps.gif",
-            "Tags":["All","Krita","Digital","Animation"],
+            "Tags":["All","Krita","Digital","Animation", "Animals"],
             "Top":-20
         },
         {
@@ -75,13 +81,13 @@
         {
             "Name":"Lovely Panda",
             "Url":"/Images/you got this panda.jpg",
-            "Tags":["All","Traditional","Pencil"],
+            "Tags":["All","Traditional","Pencil", "Animals"],
             "Top":-20
         },
         {
             "Name":"Teddy bear",
             "Url":"/Images/Teddy Bear complexer2.jpg",
-            "Tags":["All","Pencil","Traditional"],
+            "Tags":["All","Pencil","Traditional", "Animals"],
             "Top":-60
         },
         {
@@ -250,7 +256,7 @@
         {
             "Name":"King snail",
             "Url":"Images/King Snail.jpg",
-            "Tags":["All","Pencil","Traditional"],
+            "Tags":["All","Pencil","Traditional", "Animals"],
             "Top":-70
         },
         {
@@ -364,19 +370,19 @@
         {
             "Name":"Christmas Turtle in VR",
             "Url":"/Images/Turtle VR.png",
-            "Tags":["All","Digital","VR"],
+            "Tags":["All","Digital","VR", "Animals"],
             "Top":0
         },
         {
             "Name":"Turtle study",
             "Url":"/Images/Turtle drafts.JPG",
-            "Tags":["All","Digital","Krita","Self-study Anatomy"],
+            "Tags":["All","Digital","Krita","Self-study Anatomy", "Animals"],
             "Top":0
         },
         {
             "Name":"Dog practice",
             "Url":"/Images/Dog fur practice.jpg",
-            "Tags":["All","Pencil","Traditional"],
+            "Tags":["All","Pencil","Traditional", "Animals"],
             "Top":-80
         },
         {
@@ -425,7 +431,7 @@
         {
             "Name":"Red robin",
             "Url":"/Images/Bird red Robin 3-5-2021.PNG",
-            "Tags":["All","Digital", "Krita"],
+            "Tags":["All","Digital", "Krita", "Animals"],
             "Top":-40
         },
         {
@@ -443,7 +449,7 @@
         {
             "Name":"Lion",
             "Url":"/Images/Lion half.jpg",
-            "Tags":["All","Traditional", "Pencil"],
+            "Tags":["All","Traditional", "Pencil", "Animals"],
             "Top":-40
         },
         {
@@ -467,7 +473,7 @@
         {
             "Name":"Tucan",
             "Url":"/Images/Bird Tucan 3-5-2021.PNG",
-            "Tags":["All","Digital", "Krita"],
+            "Tags":["All","Digital", "Krita", "Animals"],
             "Top":0
         },
         {
@@ -485,13 +491,13 @@
         {
             "Name":"Bunny",
             "Url":"/Images/Bunny.jpg",
-            "Tags":["All","Pencil","Traditional"],
+            "Tags":["All","Pencil","Traditional", "Animals"],
             "Top":-40
         },
         {
             "Name":"Bunny 2",
             "Url":"/Images/bunny sketch 2.jpg",
-            "Tags":["All","Pencil","Traditional"],
+            "Tags":["All","Pencil","Traditional", "Animals"],
             "Top":-40
         },
         {
@@ -533,19 +539,19 @@
         {
             "Name":"Christmas dog",
             "Url":"/Images/Christmas Label Dog alone 5-12-2020.JPG",
-            "Tags":["All","Digital","Krita"],
+            "Tags":["All","Digital","Krita", "Animals"],
             "Top":-40
         },
         {
             "Name":"Small dragon",
             "Url":"/Images/dragon small 30-4-2021   1-5-2021.PNG",
-            "Tags":["All","Digital","Krita"],
+            "Tags":["All","Digital","Krita", "Animals"],
             "Top":-10
         },
         {
             "Name":"Christmas reindeer",
             "Url":"/Images/Christmas Label Reindeer alone 5-12-2020.JPG",
-            "Tags":["All","Digital","Krita"],
+            "Tags":["All","Digital","Krita", "Animals"],
             "Top":-40
         },
         {
@@ -557,7 +563,7 @@
         {
             "Name":"Space dinosaur",
             "Url":"/Images/scribble art mars dino.jpg",
-            "Tags":["All","Traditional","Pencil"],
+            "Tags":["All","Traditional","Pencil", "Animals"],
             "Top":-120
         },
         {

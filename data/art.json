@@ -32,10 +32,22 @@
         }, 
 		{
             "Name":"Good vibes",
-            "Url":"/Images/good vibes.jpg",
+            "Url":"/Images/Good vibes.jpg",
             "Tags":["All","Pencil","Traditional"],
             "Top":-4
         }, 
+        {
+            "Name":"Bluejay",
+            "Url":"/Images/pastel bird Bluejay.JPG",
+            "Tags":["All","soft pastels","Traditional", "Animals"],
+            "Top":-150
+        },
+        {
+            "Name":"Great Tit",
+            "Url":"/Images/pastel bird Great tit.JPG",
+            "Tags":["All","soft pastels","Traditional", "Animals"],
+            "Top":-140
+        },  
         {
             "Name":"Imagine Dragons poster",
             "Url":"Images/imagine dragons fx smoke only 5.png",
@@ -53,7 +65,7 @@
             "Url":"/Images/Kid Technician.JPG",
             "Tags":["All","Pixel Art","Digital"],
             "Top":-80
-        },      
+        },    
         {
             "Name":"Carboard cybertruck",
             "Url":"/Images/cardboard cybertruck full ide.jpg",
@@ -96,6 +108,12 @@
             "Tags":["All","Krita","Digital","Fanart"],
             "Top":-35
         },
+        {
+            "Name":"Connie",
+            "Url":"/Images/pastel bird connie.JPG",
+            "Tags":["All","soft pastels","Traditional", "Animals"],
+            "Top":-120
+        },  
         {
             "Name":"Hands up",
             "Url":"/Images/Hands up.jpg",
@@ -170,6 +188,12 @@
             "Top":-50
         },
         {
+            "Name":"Pencil Cockatoo",
+            "Url":"/Images/Bird Pencil Cockatoo.JPG",
+            "Tags":["All","Traditional","Pencil", "Animals"],
+            "Top":-100
+        },  
+        {
             "Name":"Clover study: Kel",
             "Url":"/Images/Kel Clover.JPG",
             "Tags":["All","Krita","Digital","Self-study Style","Fanart"],
@@ -181,6 +205,12 @@
             "Tags":["All","Krita","Digital","Self-study Style","Fanart"],
             "Top":0
         },
+        {
+            "Name":"Cockatiels",
+            "Url":"/Images/pastel bird Cockatiels.JPG",
+            "Tags":["All","soft pastels","Traditional", "Animals"],
+            "Top":-100
+        },  
         {
             "Name":"Clover study: Own attempt",
             "Url":"/Images/Random Kid Clover.jpg",
@@ -241,6 +271,12 @@
             "Tags":["All","Digital","Rebelle", "Fanart"],
             "Top":-0
         },
+        {
+            "Name":"robin",
+            "Url":"/Images/pastel bird robin.JPG",
+            "Tags":["All","soft pastels","Traditional", "Animals"],
+            "Top":-120
+        },  
         {
             "Name":"The edge of sleep fan art",
             "Url":"/Images/edge of sleep2 (2).jpg",
@@ -441,6 +477,12 @@
             "Top":-40
         },
         {
+            "Name":"troupial",
+            "Url":"/Images/pastel bird troupial.JPG",
+            "Tags":["All","soft pastels","Traditional", "Animals"],
+            "Top":-150
+        },  
+        {
             "Name":"ASCII free parking",
             "Url":"/Images/ASCII free parking 26-4-2021.PNG",
             "Tags":["All","ASCII","Digital"],
@@ -500,6 +542,12 @@
             "Tags":["All","Pencil","Traditional", "Animals"],
             "Top":-40
         },
+        {
+            "Name":"Cockatiel",
+            "Url":"/Images/pastel bird cockatiel.JPG",
+            "Tags":["All","soft pastels","Traditional", "Animals"],
+            "Top":-80
+        },  
         {
             "Name":"Melon to phone factory",
             "Url":"/Images/BV machine.jpg",

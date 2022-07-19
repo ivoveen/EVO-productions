@@ -11,19 +11,25 @@
     <meta charset="utf-8" />
 
     <!-- Set the title bar of the page -->
-    <title>Created with GameMaker: Studio</title>
+    <title>Evo productions</title>
+    <link rel="stylesheet" href="../../../css/Styles.css">
 
     <!-- Set the background colour of the document -->
     <style>
-        body {
-              background: #000000;
-              color:#cccccc;
-              margin: 0px;
-              padding: 0px;
-              border: 0px;
-              background-image: url("spr_steen.png");
-              background-repeat: repeat;
+       
+            .stonebackground{
+                background-image: url("spr_steen.png");
+                background-repeat: repeat;
+                width: fit-content;
+                
             }
+
+            .spacer{
+                height: 1vw;
+                margin: 1vw;
+            }
+
+
             canvas {
                       image-rendering: optimizeSpeed;
                       -webkit-interpolation-mode: nearest-neighbor;
@@ -75,7 +81,7 @@
             div.centerdiv{
                 align-content: center;
                 text-align:center;
-                width:100%;
+                margin: 0 auto
             }
 
             div.title{
@@ -117,9 +123,87 @@
 </head>
 
 <body>
-    <div class="centerdiv">
+
+    <header class="main-header">
+        <h1> EVO PRODUCTIONS</h1>
+        <nav class="nav main-nav">
+            <ul>
+                <li> <a href="../../index.html">Home </a> </li>
+                <li> <a href="../../Website Games page.html">Games</a> </li>
+                <li> <a href="../../Website Art page.html"> Art </a> </li>
+                <li> <a href="../../Website About page.html"> About me</a> </li>
+                <li> <a href="../../Website Extra info page.html"> Extra info</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-title">
+        <div>
+            <h1 class=""> Duck Game</h1>
+        </div>
+    </section>
+    <section class="flex-rows">
+        <div class="game-info">
+            <h1>
+                My first ever Game
+            </h1>
+            <p>
+                I finished Duck Game when I was 13, and started working on it when I was 11 or 12. 
+                Development was slow because it was the first game I had ever made, and I knew nothing about programming.
+                Thankfully my dad would help me fix bugs and pull throug to finish it in the end. 
+                The game was made using Gamemaker, however basically none of the build-in functions were used. 
+                Almost all of it was programmed using the "piece of code" feature. <br>
+                <br>
+                The game consists of two modes, local multiplayer and singleplayer. <br>
+                In local multiplayer to people can play using the same keyboard and try to beat eachother.
+                While doing so they will discover a multitude of features including: chained explosions, power-ups and environmental hazards.<br>
+                <br>
+                In singleplayer mode the player can fight against slightly overpowered AI and try to rack up a highscore. <br>
+                Normal mode has the normal gameplay of having 3 lives vs 3 croco lives.<br>
+                Waves mode is infinite and counts your kills to allow you to compare your kills with a friends kills.<br>
+
+                <br>
+                Looking back at the game I am still very pleased. It served as a great way to get in touch with programming and game making. 
+                As a bonus the game can be pretty fun to play when u have a friend to tag along locally.
+            </p>
+            <h1>
+                Controls
+            </h1>
+            <p>
+                Menu Select:    <br>
+                choose: arrow keys<br>
+                select: enter<br>
+                <br>
+                Controlling Duck:<br>
+                movement: arrow keys<br>
+                Shooting: Space<br>
+                <br>
+                Controlling Kroko:<br>
+                movement: w a s d<br>
+                shooting: left-shift
+            </p>
+        </div>
+        
+        <div class="trailer">
+            <h1>
+                The Trailer
+            </h1>
+            <iframe class="Animation-video" src="https://www.youtube.com/embed/OC5q3ylJXaU">
+            </iframe>
+        </div>
+
+
+
+    </section>
+    
+
+    <div class="spacer">
+
+    </div>
+
+    <div class="centerdiv stonebackground">
         <div class="title">
-            DUCKGAME
+            DUCK GAME
         </div>
         <div class="gm4html5_div_class" id="gm4html5_div_id">
             <!-- Create the canvas element the game draws to -->
@@ -141,6 +225,33 @@
             </div>
         </div>
     </div>
+
+
+    <div class="spacer">
+
+    </div>
+
+
+
+
+
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3>
+                EVO productions
+            </h3>
+            <nav class="nav footer-nav">
+                <ul>
+                    <li> <a href="https://www.youtube.com/channel/UCRwy-kJGQjKNJXLjljcYOig" target="_blank"> Youtube
+                        </a></li>
+                    <li> <a href="https://www.instagram.com/drboem/" target="_blank"> Instagram</a></li>
+                    <li> <a href="https://twitter.com/veen_ivo" target="_blank"> Twitter </a> </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+
 
     <!-- Run the game code -->
     <script type="text/javascript" src="html5game/waarom mis ik zo veel.js?ELZZB=907416180"></script>

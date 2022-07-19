@@ -110,6 +110,7 @@ body{
     color: white;
     font-weight: lighter;
     font-size: 1.1em;;
+    margin-left: 1vw;
 }
 
 .main-footer a{
@@ -233,6 +234,16 @@ body{
 }
 
 
+.welcome-sign-games:before {
+    content: '';
+
+    position: absolute;
+    top: 0; right: 0;
+    border-top: 80px solid  rgb(12, 1, 14);
+    border-left: 80px solid rgb(70, 8, 61 );
+    width: 0;
+}
+
 
 .home-nav{
     margin: 20px;
@@ -294,12 +305,36 @@ body{
 }
 
 
-
-
-.page-title h1{
-    font-size: 5.2em;
+.trailer h1{
+    font-size: 2vw;
     color: white;
     font-weight: lighter;
+    font-family: HeronSansCond;
+    margin: 0;
+
+
+}
+
+.trailer{
+    text-align: center;
+    align-content: center;
+    margin: 1vw;
+    height: fit-content;
+    
+
+    background-color: rgb(30, 13, 48);
+    border-radius: 25px;
+
+
+    -webkit-box-shadow: 6px 6px 2px 2px rgb(89, 65, 114); 
+    box-shadow: 6px 6px 2px 1px rgb(89, 65, 114);
+}
+
+.page-title h1{
+    font-size: 5vw;
+    color: white;
+    font-weight: lighter;
+    font-family: HeronSansCond;
 }
 .page-title{
     margin-top: 20px;
@@ -379,6 +414,25 @@ body{
     margin: 10px;
     padding: 0;
 }
+
+.game-info{
+    background-color: rgb(70, 8, 61 );
+    padding: 20px;
+    border-radius: 25px;
+    margin: 1vw;
+}
+
+.game-info h1{
+    color: white;
+    font-family: HeronSansCond;
+    font-size: 2vw;
+}
+
+.game-info p{
+    font-size: 1vw;
+    color: white;
+}
+
 
 .about-me-text-head h1{
     padding-left: 10%;
@@ -477,3 +531,7 @@ body{
     font-family: HeronSansCond;
 }
 
+.flex-rows{
+   display: flex;
+   flex-direction: row; 
+}

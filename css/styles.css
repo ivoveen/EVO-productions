@@ -132,6 +132,42 @@ body{
 }
 
 
+.text-picture-button{
+    text-align: center;
+    align-content: center;
+    margin: 1vw;
+    height: fit-content;
+    
+
+    background-color: rgb(30, 13, 48);
+    border-radius: 25px;
+
+
+    -webkit-box-shadow: 6px 6px 2px 2px rgb(89, 65, 114); 
+    box-shadow: 6px 6px 2px 1px rgb(89, 65, 114);
+    padding: 1vw;
+}
+
+.text-picture-button h1{
+    font-size: 2vw;
+    color: white;
+    font-weight: lighter;
+    font-family: HeronSansCond;
+    margin: 0.5vw;
+    text-decoration: none;
+}
+.text-picture-button a{
+    text-decoration: none;
+}
+
+.text-picture-button img{
+    height: 10vw;
+    width: auto;
+}
+
+
+
+
 
 
 
@@ -320,6 +356,7 @@ body{
     align-content: center;
     margin: 1vw;
     height: fit-content;
+    padding: 0.5vw;
     
 
     background-color: rgb(30, 13, 48);

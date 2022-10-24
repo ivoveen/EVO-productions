@@ -1,6 +1,7 @@
 <html>
 
 <head>
+
     <title> Conways Game Of Life</title>
     <style>
         canvas {
@@ -22,20 +23,79 @@
             margin: 20px;
         }
     </style>
+    <link rel="stylesheet" href="../../css/styles.css">
 </head>
 
 <body>
-    <canvas width="1000" height="1000" id="myCanvas"></canvas>
-    <div class="buttons">
-        <h1 class="button" onclick="startStop()"> Play/Stop </h1>
-        <h1 class="button" onclick="mainLoop()">Next</h1>
-        <h1 class="button" onclick="randomised()">Randomise</h1>
-        <h1 class="button" onclick="clearScreen()">Clear</h1>
-        <h1 class="button" onclick="runTillEnd()">Last gen</h1>
+    <header class="main-header">
+        <h1> EVO PRODUCTIONS</h1>
+        <nav class="nav main-nav">
+            <ul>
+                <li> <a href="../../index.html">Home </a> </li>
+                <li> <a href="../../Website Games page.html">Games</a> </li>
+                <li> <a href="../../Website Art page.html"> Art </a> </li>
+                <li> <a href="../../Website About page.html"> About me</a> </li>
+                <li> <a href="../../Website Extra info page.html"> Extra info</a> </li>
+            </ul>
+        </nav>
+    </header>
 
-    </div>
+    <section class="page-title">
+        <div>
+            <h1 class=""> Conways Game of Life</h1>
+        </div>
+    </section>
+    <section class="flex-rows">
+        <div class="game-info">
+            <h1>
+                Playing around with JS
+            </h1>
+            <p>
+                One day I got obsessed with videos about Conways Game of Life. 
+                So obsessed in fact that I decided I wanted it on my website.
+                This meant I had to make it using JavaScript so I could easily display it on my website.
+                This was my first time using an html canvas in combination with JavaScript.
+                Javascript itself is also very new to me still since I barely use it. 
+                That's why this project was a great exercise to learn. 
+                <br> <br>
+                You can play my version of the game of life to the right of this text. 
+                The random button will fill the canvas with random spots to simulate, 
+                but if you want more control you can place squares yourself by clicking on the canvas. 
+                When you're ready to play the simulation you can press the Play/Stop button.
+                If you want to see what's happening more clearly you can also single step through the simulation using the next button.
+                Afterwards you can clear the screen with the clear button.
+        </div>
 
 
+
+
+
+        <div class="trailer">
+            <div class>
+                <canvas width="500" height="500" id="myCanvas"></canvas>
+            </div>
+            
+            <div class="buttons">
+                <div>
+                    <h2 class="tag" onclick="startStop()"> Play/Stop </h1>
+                </div>
+                <div>
+                    <h2 class="tag" onclick="mainLoop()">Next</h1>
+                </div>
+                <div>
+                    <h2 class="tag" onclick="randomised()">Randomise</h1>
+                </div>
+                <div>
+                    <h2 class="tag" onclick="clearScreen()">Clear</h1>
+                </div>
+                
+                
+                
+
+            </div>
+
+        </div>
+    </section>
 
     <script>
 
@@ -45,8 +105,8 @@
         ctx.fillStyle = 'rgb(0, 0, 0)'
         ctx.font = "16px Arial";
 
-        var cols = 22;
-        var rows = 22;
+        var cols = 50;
+        var rows = 43;
         var gen = 0;
         var dupe = 0;
         var started = false;
@@ -65,12 +125,15 @@
             var canvasY = Math.round(e.clientY - cRect.top);   // from the X/Y positions to make  
             //ctx.fillRect(0, 0, canvas.width, canvas.height);  // (0,0) the top left of the canvas
             ctx.fillStyle = 'rgb(255,255,255)'
-            ctx.fillRect(300, 0, 600, 66);
+            ctx.fillRect(0, 0, 600, 66);
             ctx.fillStyle = 'rgb(0,0,0)'
-            ctx.fillText("X: " + canvasX + ", Y: " + canvasY, 300, 20);
-            ctx.fillText("Row: " + Math.floor(canvasX / 10) + ", collum: " + Math.floor(canvasY / 10), 300, 40);
-            ctx.fillText("Status " + grid[Math.floor(canvasX / 10)][Math.floor(canvasY / 10)] + ", Living Neighbours:" + countNeighbours(Math.floor(canvasX / 10), Math.floor(canvasY / 10)), 300, 60);
+            ctx.fillText("X: " + canvasX + ", Y: " + canvasY, 20, 20);
+            ctx.fillText("Row: " + Math.floor((canvasY -70 )/ 10) + ", collum: " + Math.floor(canvasX / 10), 200, 20);
+            ctx.fillText("Status " + grid[Math.floor(canvasX / 10)][Math.floor(canvasY / 10)] + ", Living Neighbours:" + countNeighbours(Math.floor(canvasX / 10), Math.floor(canvasY / 10)), 20, 40);
+            ctx.fillText("Gen: " + gen, 20, 60);
         });
+
+        
 
         //drawing
         canvas.addEventListener('click', function (e) {
@@ -79,7 +142,7 @@
             var canvasY = Math.round(e.clientY - cRect.top);   // from the X/Y positions to make  
 
             let col = Math.floor(canvasX / 10)
-            let row = Math.floor(canvasY / 10)
+            let row = Math.floor((canvasY -70)/ 10)
 
             if (grid[col][row] == 0) {
                 grid[col][row] = 1;
@@ -113,6 +176,15 @@
 
                 }
             }
+
+            ctx.fillStyle = 'rgb(255,255,255)'
+            ctx.fillRect(0, 0, 600, 66);
+            ctx.fillStyle = 'rgb(0,0,0)'
+            ctx.fillText("X: " + ", Y: ", 20, 20);
+            ctx.fillText("Row: " + ", collum: ", 200, 20);
+            ctx.fillText("Status " + ", Living Neighbours:", 20, 40);
+            ctx.fillText("Gen: ", 20, 60);
+
         }
 
         function randomised() {
@@ -147,10 +219,10 @@
         function updateGen() {
             gen++;
             ctx.fillStyle = 'rgb(255,255,255)'
-            ctx.fillRect(300, 64, 600, 16);
+            ctx.fillRect(0, 40, 600, 20);
 
             ctx.fillStyle = 'rgb(0,0,0)'
-            ctx.fillText("Gen: " + gen, 300, 80);
+            ctx.fillText("Gen: " + gen, 20, 60);
 
 
         }
@@ -168,13 +240,6 @@
             }
         }
 
-        function runTillEnd() {
-            clearInterval(timer);
-            started = false;
-
-            timer2 = setInterval(mainLoop, 100);
-
-        }
 
         function mainLoop() {
             console.log("mainloop");
@@ -224,7 +289,7 @@
                     }
 
 
-                    if(newgrid[i][j] != grid[i][j] || newgrid[i][j] != oldgrid[i][j]){
+                    if (newgrid[i][j] != grid[i][j] || newgrid[i][j] != oldgrid[i][j]) {
                         different = true;
                     }
 
@@ -232,10 +297,10 @@
                 }
             }
 
-            if(different == false){
+            if (different == false) {
                 clearInterval(timer2);
             }
-            
+
             oldgrid = grid;
             grid = newgrid;
 
@@ -248,13 +313,13 @@
                 for (let j = 1; j < rows - 1; j++) {
                     if (grid[i][j] == 1) {
                         ctx.fillStyle = 'rgb(0, 0, 0)'
-                        ctx.fillRect(i * 10, j * 10, 10, 10);
+                        ctx.fillRect(i * 10, j * 10 + 70, 10, 10);
                     } else if (grid[i][j] == 0) {
                         ctx.fillStyle = 'rgb(255, 255, 255)'
-                        ctx.fillRect(i * 10, j * 10, 10, 10);
+                        ctx.fillRect(i * 10, j * 10 + 70, 10, 10);
                     } else {
                         ctx.fillStyle = 'rgb(255, 0, 0)'
-                        ctx.fillRect(i * 10, j * 10, 10, 10);
+                        ctx.fillRect(i * 10, j * 10 + 70, 10, 10);
                     }
 
 

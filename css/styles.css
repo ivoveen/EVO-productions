@@ -35,6 +35,15 @@ body {
 
 }
 
+canvas{
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0,0);
+    margin: 1vw;
+}
+
+
 .home-header {
     padding: 200px;
     background-image: url("/Images/temp street img 3.jpg");
@@ -243,6 +252,10 @@ body {
 
 
 
+.buttons h2{
+    color: white;
+    padding: 1vw;
+}
 
 
 

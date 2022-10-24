@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     color: #777;
 }
@@ -8,6 +8,7 @@
     font-family: HeronSansCond;
     src: url('/Fonts/Font\ Bureau\ -\ HeronSansCond\ Bold.otf');
 }
+
 @font-face {
     font-family: Akkurat;
     src: url('/Fonts/Akkurat.ttf');
@@ -17,7 +18,8 @@
 
 
 
-html,body{
+html,
+body {
     margin: 0;
     padding: 0;
     border: 0px;
@@ -25,14 +27,15 @@ html,body{
 
     font: 400 13.3333px Arial
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
     background-color: rgb(12, 1, 14);
 
 }
 
-.home-header{
+.home-header {
     padding: 200px;
     background-image: url("/Images/temp street img 3.jpg");
     background-position: center;
@@ -40,37 +43,41 @@ body{
     background-color: rgba(0, 0, 0, 0.459);
     background-blend-mode: multiply;
 }
-.home-header h1{
+
+.home-header h1 {
     color: white;
     align-items: center;
-    
+
 }
 
-.nav ul{
+.nav ul {
     margin: 0;
     padding: 0;
 }
-.nav Li{
+
+.nav Li {
     display: inline;
 }
-.nav a{
+
+.nav a {
     display: inline-block;
     padding: .5em;
     text-decoration: none;
 }
-.nav a:hover{
+
+.nav a:hover {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-.main-header h1{
+.main-header h1 {
     text-align: center;
     color: rgba(255, 255, 255);
     margin: 0;
-    padding-top:  30px;
+    padding-top: 30px;
     margin-bottom: 30px;
 }
 
-.main-nav{
+.main-nav {
     text-align: center;
     font-size: 1.1em;
     font-weight: lighter;
@@ -78,27 +85,28 @@ body{
     border-top: 1px solid white;
 }
 
-.main-nav a{
+.main-nav a {
     color: white;
-    
+
 }
-.main-nav li{
-    padding:  0 1%;
+
+.main-nav li {
+    padding: 0 1%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.main-header{
+.main-header {
     background-color: rgb(30, 13, 48);
     font-family: HeronSansCond;
 }
 
-.content{
+.content {
     flex: 1 0 auto;
 }
 
 
-.main-footer{
+.main-footer {
     flex-shrink: 0;
     width: 100%;
     background-color: rgb(30, 13, 48);
@@ -106,49 +114,50 @@ body{
     padding: .25em 0;
 }
 
-.main-footer h3{
+.main-footer h3 {
     color: white;
     font-weight: lighter;
-    font-size: 1.1em;;
+    font-size: 1.1em;
+    ;
     margin-left: 1vw;
 }
 
-.main-footer a{
+.main-footer a {
     color: white;
 }
 
-.main-footer-container{
+.main-footer-container {
     display: flex;
     align-items: center;
 }
 
-.main-footer-container nav{
+.main-footer-container nav {
     flex-grow: 1;
     text-align: end;
 }
 
-.footer-nav li{
+.footer-nav li {
     padding: 0 .5em;
 }
 
 
-.text-picture-button{
+.text-picture-button {
     text-align: center;
     align-content: center;
     margin: 1vw;
     height: fit-content;
-    
+
 
     background-color: rgb(30, 13, 48);
     border-radius: 25px;
 
 
-    -webkit-box-shadow: 6px 6px 2px 2px rgb(89, 65, 114); 
+    -webkit-box-shadow: 6px 6px 2px 2px rgb(89, 65, 114);
     box-shadow: 6px 6px 2px 1px rgb(89, 65, 114);
     padding: 1vw;
 }
 
-.text-picture-button h1{
+.text-picture-button h1 {
     font-size: 2vw;
     color: white;
     font-weight: lighter;
@@ -156,11 +165,12 @@ body{
     margin: 0.5vw;
     text-decoration: none;
 }
-.text-picture-button a{
+
+.text-picture-button a {
     text-decoration: none;
 }
 
-.text-picture-button img{
+.text-picture-button img {
     height: 10vw;
     width: auto;
 }
@@ -171,7 +181,7 @@ body{
 
 
 
-.picture-button{
+.picture-button {
     height: 200px;
     margin: 20px;
     margin-right: 15px;
@@ -183,11 +193,11 @@ body{
 
 
 
-.picture-button a{
+.picture-button a {
     text-decoration: none;
 }
 
-.picture-container{
+.picture-container {
     height: 200px;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -195,35 +205,36 @@ body{
     border-radius: 25px;
 }
 
-.picture-container img{
+.picture-container img {
     transition-duration: 300ms;
 }
 
-.picture-container img:hover{
+.picture-container img:hover {
     transform: scale(1.2);
     cursor: pointer;
 }
-.picture-button h4{
+
+.picture-button h4 {
     margin: 0px;
     padding: 20px;
     text-align: center;
     font-size: 1.5em;
     color: white;
-    background-color: rgb(70, 8, 61); 
+    background-color: rgb(70, 8, 61);
 }
 
-.picture-button img{
+.picture-button img {
     width: 400px;
 }
 
-.picture-buttons{
+.picture-buttons {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
 }
 
-.Animation-video{
+.Animation-video {
     width: 600px;
     height: 350px;
 
@@ -236,9 +247,9 @@ body{
 
 
 
-.welcome-sign{
+.welcome-sign {
     color: white;
-    background-color: rgb(70, 8, 61 );
+    background-color: rgb(70, 8, 61);
     margin: 20px;
     margin-left: 5%;
     margin-right: 5%;
@@ -246,13 +257,15 @@ body{
     position: relative;
 
 }
-.welcome-sign p{
+
+.welcome-sign p {
     font-family: akkurat;
     color: white;
     text-align: center;
     font-size: large;
 }
-.welcome-sign h1{
+
+.welcome-sign h1 {
     font-family: HeronSansCond;
     font-size: 2em;
     color: white;
@@ -263,9 +276,10 @@ body{
     content: '';
 
     position: absolute;
-    top: 0; right: 0;
-    border-top: 80px solid  rgb(12, 1, 14);
-    border-left: 80px solid rgb(70, 8, 61 );
+    top: 0;
+    right: 0;
+    border-top: 80px solid rgb(12, 1, 14);
+    border-left: 80px solid rgb(70, 8, 61);
     width: 0;
 }
 
@@ -274,21 +288,22 @@ body{
     content: '';
 
     position: absolute;
-    top: 0; right: 0;
-    border-top: 80px solid  rgb(12, 1, 14);
-    border-left: 80px solid rgb(70, 8, 61 );
+    top: 0;
+    right: 0;
+    border-top: 80px solid rgb(12, 1, 14);
+    border-left: 80px solid rgb(70, 8, 61);
     width: 0;
 }
 
 
-.home-nav{
+.home-nav {
     margin: 20px;
     border: 0;
     transition-duration: 300ms;
     font-family: HeronSansCond;
 }
 
-.home-nav h1{
+.home-nav h1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -300,48 +315,53 @@ body{
     font-size: 2em;
 }
 
-.home-nav:hover{
+.home-nav:hover {
     transform: scale(1.2);
 }
 
-.home-nav a{
+.home-nav a {
     text-decoration: none;
     margin: 0;
 }
 
-.home-nav-games{
+.home-nav-games {
     background-image: url("/Images/compter temp.PNG");
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: multiply;
     background-size: cover;
 }
-.home-nav-art{
+
+.home-nav-art {
     background-image: url("/Images/art temp.jpg");
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: multiply;
     background-size: cover;
 }
-.home-nav-about{
+
+.home-nav-about {
     background-image: url("/Images/ivo 19-2-2021.JPG");
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: multiply;
     background-size: cover;
 }
-.home-nav-info{
+
+.home-nav-info {
     background-image: url("/Images/extra\ info\ temp.jpg");
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: multiply;
     background-size: cover;
 }
-.home-nav-container img{
+
+.home-nav-container img {
     transition-duration: 300ms;
 }
-.home-nav-container img:hover{
+
+.home-nav-container img:hover {
     transform: scale(1.2);
 }
 
 
-.trailer h1{
+.trailer h1 {
     font-size: 2vw;
     color: white;
     font-weight: lighter;
@@ -351,36 +371,53 @@ body{
 
 }
 
-.trailer{
+.trailer {
     text-align: center;
     align-content: center;
     margin: 1vw;
     height: fit-content;
     padding: 0.5vw;
-    
+
 
     background-color: rgb(30, 13, 48);
     border-radius: 25px;
 
 
-    -webkit-box-shadow: 6px 6px 2px 2px rgb(89, 65, 114); 
+    -webkit-box-shadow: 6px 6px 2px 2px rgb(89, 65, 114);
     box-shadow: 6px 6px 2px 1px rgb(89, 65, 114);
 }
 
-.page-title h1{
+.trailer img {
+    border-radius: 25px;
+}
+
+
+.max-width {
+    width: 50vw;
+}
+
+.photo-gallery img {
+    width: 20vw;
+    margin: 1vw;
+
+}
+
+.page-title h1 {
     font-size: 5vw;
     color: white;
     font-weight: lighter;
     font-family: HeronSansCond;
 }
-.page-title{
+
+.page-title {
     margin-top: 20px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.page-title h2{
+
+.page-title h2 {
     font-size: 3.2em;
     color: white;
     font-weight: lighter;
@@ -389,7 +426,7 @@ body{
 }
 
 
-.WIP-text{
+.WIP-text {
     text-align: center;
     font-size: 1.1em;
     font-weight: lighter;
@@ -398,93 +435,94 @@ body{
     text-align: center;
     font-size: 1.5em;
     color: #777;
-    margin-top: 20px;    
+    margin-top: 20px;
 }
 
 
 
-.tag-section{
+.tag-section {
     margin-left: 5%;
     margin-right: 5%;
 }
 
-.tag{
+.tag {
     border: none;
     background: none;
-   
+
     background-color: rgb(30, 13, 48);
     border-radius: 25px;
 
     border: 1px solid rgb(89, 65, 114);
 
     padding-top: 5px;
-    margin:5px;
+    margin: 5px;
 }
 
-.tag h4{
+.tag h4 {
     color: white;
     margin: 10px;
     padding: 0;
 }
-.tag:hover{
+
+.tag:hover {
     background-color: rgb(89, 65, 114);
     cursor: pointer;
-    
+
     border: 1px solid rgb(117, 98, 138);
 }
 
-.selected-tag{
+.selected-tag {
     border: none;
     background: none;
-   
+
     background-color: rgb(89, 65, 114);
     border-radius: 25px;
 
     border: 1px solid rgb(89, 65, 114);
 
     padding-top: 5px;
-    margin:5px;
+    margin: 5px;
 }
 
-.selected-tag h4{
+.selected-tag h4 {
     color: white;
     margin: 10px;
     padding: 0;
 }
 
-.game-info{
-    background-color: rgb(70, 8, 61 );
+.game-info {
+    background-color: rgb(70, 8, 61);
     padding: 20px;
     border-radius: 25px;
     margin: 1vw;
 }
 
-.game-info h1{
+.game-info h1 {
     color: white;
     font-family: HeronSansCond;
     font-size: 2vw;
 }
 
-.game-info p{
+.game-info p {
     font-size: 1vw;
     color: white;
 }
 
 
-.about-me-text-head h1{
+.about-me-text-head h1 {
     padding-left: 10%;
     padding-right: 10%;
     font-size: 5em;
 
 }
 
-.about-me-text{
-    background-color: rgb(70, 8, 61 );
+.about-me-text {
+    background-color: rgb(70, 8, 61);
     padding: 20px;
     border-radius: 25px;
 }
 
-.info-panel{
+.info-panel {
     background-color: rgb(30, 13, 48);
     width: 400px;
     margin: 10px;
@@ -492,83 +530,88 @@ body{
     padding-bottom: 10px;
     padding-top: 10px;
 
-    -webkit-box-shadow: 6px 6px 2px 2px rgb(89, 65, 114); 
+    -webkit-box-shadow: 6px 6px 2px 2px rgb(89, 65, 114);
     box-shadow: 6px 6px 2px 1px rgb(89, 65, 114);
-    
+
 }
-.info-panel h4{
+
+.info-panel h4 {
     margin: 0px;
     padding: 10px;
     color: white;
     font-size: 1.4em;
 }
-.info-panel h3{
+
+.info-panel h3 {
     margin: 0px;
     padding: 10px;
     color: white;
 }
-.info-panel ul{
+
+.info-panel ul {
     margin: 0px;
     padding: 10px;
     text-decoration: none;
 }
-.info-panel li{
+
+.info-panel li {
     font-size: 150%;
     text-decoration: none;
     color: white;
     list-style-type: none;
 }
 
-.info-panels{
+.info-panels {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     margin-left: 1%;
     margin-bottom: 1%;
 }
 
-.about-me-content{
+.about-me-content {
     margin-top: 1%;
     margin-bottom: 1%;
     margin-left: 10%;
     margin-right: 10%;
     display: flex;
 
-    
+
 }
 
-.about-me-content h4{
+.about-me-content h4 {
     font-size: 2em;
     margin: 0px;
     color: white;
 
 }
 
-.about-me-content p{
-    font-size: 1.5em ;
+.about-me-content p {
+    font-size: 1.5em;
     color: white;
     font-family: akurat;
 
 }
-.about-me-content a{
+
+.about-me-content a {
     color: white;
 }
 
 
-.about-me-image{
+.about-me-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+
     width: 50%;
     border-radius: 25px;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
-.HeronSansCond{
+.HeronSansCond {
     font-family: HeronSansCond;
 }
 
-.flex-rows{
-   display: flex;
-   flex-direction: row; 
+.flex-rows {
+    display: flex;
+    flex-direction: row;
 }

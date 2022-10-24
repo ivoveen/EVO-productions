@@ -35,6 +35,11 @@ body {
 
 }
 
+p{
+    font-family: akkurat;
+    color: white;
+}
+
 canvas{
     position: relative;
     top: 0;
@@ -535,6 +540,7 @@ canvas{
     border-radius: 25px;
 }
 
+
 .info-panel {
     background-color: rgb(30, 13, 48);
     width: 400px;
@@ -601,7 +607,7 @@ canvas{
 .about-me-content p {
     font-size: 1.5em;
     color: white;
-    font-family: akurat;
+    font-family: akkurat;
 
 }
 
@@ -615,9 +621,9 @@ canvas{
     margin-left: auto;
     margin-right: auto;
 
-    width: 50%;
+    width: 15vw;
     border-radius: 25px;
-    margin-bottom: 10px;
+    margin: 1vw;
 }
 
 .HeronSansCond {

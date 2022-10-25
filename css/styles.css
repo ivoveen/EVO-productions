@@ -187,6 +187,7 @@ canvas{
 .text-picture-button img {
     height: 10vw;
     width: auto;
+    border-radius: 25px;
 }
 
 
@@ -523,6 +524,13 @@ canvas{
     color: white;
     font-family: HeronSansCond;
     font-size: 2vw;
+}
+.game-info h2 {
+    color: white;
+    font-family: HeronSansCond;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
 }
 
 .game-info p {

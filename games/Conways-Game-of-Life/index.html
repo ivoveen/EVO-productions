@@ -35,7 +35,6 @@
                 <li> <a href="../../Website Games page.html">Games</a> </li>
                 <li> <a href="../../Website Art page.html"> Art </a> </li>
                 <li> <a href="../../Website About page.html"> About me</a> </li>
-                <li> <a href="../../Website Extra info page.html"> Extra info</a> </li>
             </ul>
         </nav>
     </header>
@@ -60,11 +59,24 @@
                 
             </p>
             <h1>
+                Explanation
+            </h1>
+            <p>
+                The game of life is a cellular automation created by John Conway. 
+                It is a simulation in which only the initial state can be changed. 
+                The rest of the simulation tries to mimic a form of life by following four simple rules.
+                <br> <br>1. Any live cell with fewer than two live neighbours dies, as if by underpopulation.
+                <br> 2. Any live cell with two or three live neighbours lives on to the next generation.
+                <br> 3. Any live cell with more than three live neighbours dies, as if by overpopulation.
+                <br> 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+            
+            </p>
+            <h1>
                 Controls
             </h1>
             <p>
-                You can play my version of the game of life to the right of this text. 
-                <br><br> random button will fill the canvas with random spots to simulate, 
+                You can play my version of the Game of Life to the right of this text. 
+                <br><br> The randomise button will fill the canvas with random spots to simulate, 
                 but if you want more control you can place squares yourself by clicking on the canvas. 
                 <br> <br> When you're ready to play the simulation you can press the Play/Stop button.
                 <br> <br> If you want to see what's happening more clearly you can also single step through the simulation using the next button.
@@ -154,7 +166,7 @@
             ctx.fillStyle = 'rgb(0,0,0)'
             ctx.fillText("X: " + canvasX + ", Y: " + canvasY, 20, 20);
             ctx.fillText("Row: " + Math.floor((canvasY -70 )/ 10) + ", collum: " + Math.floor(canvasX / 10), 200, 20);
-            ctx.fillText("Status " + grid[Math.floor(canvasX / 10)][Math.floor(canvasY / 10)] + ", Living Neighbours:" + countNeighbours(Math.floor(canvasX / 10), Math.floor(canvasY / 10)), 20, 40);
+            ctx.fillText("Status " + grid[Math.floor(canvasX / 10)][Math.floor((canvasY -70) / 10)] + ", Living Neighbours:" + countNeighbours(Math.floor(canvasX / 10), Math.floor((canvasY -70) / 10)), 20, 40);
             ctx.fillText("Gen: " + gen, 20, 60);
         });
 

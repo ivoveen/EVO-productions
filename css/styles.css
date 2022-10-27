@@ -35,16 +35,16 @@ body {
 
 }
 
-p{
+p {
     font-family: akkurat;
     color: white;
 }
 
-canvas{
+canvas {
     position: relative;
     top: 0;
     left: 0;
-    transform: translate(0,0);
+    transform: translate(0, 0);
     margin: 1vw;
 }
 
@@ -162,6 +162,7 @@ canvas{
     height: fit-content;
 
 
+
     background-color: rgb(30, 13, 48);
     border-radius: 25px;
 
@@ -169,6 +170,8 @@ canvas{
     -webkit-box-shadow: 6px 6px 2px 2px rgb(89, 65, 114);
     box-shadow: 6px 6px 2px 1px rgb(89, 65, 114);
     padding: 1vw;
+    
+    transition-duration: 200ms;
 }
 
 .text-picture-button h1 {
@@ -178,9 +181,10 @@ canvas{
     font-family: HeronSansCond;
     margin: 0.5vw;
     text-decoration: none;
+
 }
 
-.text-picture-button a {
+.picture-buttons a {
     text-decoration: none;
 }
 
@@ -191,7 +195,14 @@ canvas{
 }
 
 
-
+.text-picture-button:hover {
+    
+    
+    position: relative;
+    box-shadow: none;
+    transform: translate(6px,6px);
+    
+}
 
 
 
@@ -258,7 +269,7 @@ canvas{
 
 
 
-.buttons h2{
+.buttons h2 {
     color: white;
     padding: 1vw;
 }
@@ -428,7 +439,7 @@ canvas{
     font-family: HeronSansCond;
 }
 
-.page-title h2{
+.page-title h2 {
     font-family: HeronSansCond;
 }
 
@@ -525,6 +536,7 @@ canvas{
     font-family: HeronSansCond;
     font-size: 2vw;
 }
+
 .game-info h2 {
     color: white;
     font-family: HeronSansCond;

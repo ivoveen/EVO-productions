@@ -170,7 +170,6 @@ canvas {
     -webkit-box-shadow: 6px 6px 2px 2px rgb(89, 65, 114);
     box-shadow: 6px 6px 2px 1px rgb(89, 65, 114);
     padding: 1vw;
-    
     transition-duration: 200ms;
 }
 
@@ -204,7 +203,12 @@ canvas {
     
 }
 
-
+.Button-inset:hover {
+    position: relative;
+    box-shadow: none;
+    transform: translate(6px,6px);
+    
+}
 
 
 .picture-button {
@@ -415,7 +419,11 @@ canvas {
 
     -webkit-box-shadow: 6px 6px 2px 2px rgb(89, 65, 114);
     box-shadow: 6px 6px 2px 1px rgb(89, 65, 114);
+
+    transition-duration: 200ms;
 }
+
+
 
 .trailer img {
     border-radius: 25px;

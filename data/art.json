@@ -32,19 +32,19 @@
         }, 
 		{
             "Name":"Good vibes",
-            "Url":"/Images/Good vibes.jpg",
+            "Url":"/Images/Good vibes.JPG",
             "Tags":["All","Pencil","Traditional"],
             "Top":-4
         }, 
         {
             "Name":"Bluejay",
-            "Url":"/Images/pastel bird Bluejay.JPG",
+            "Url":"/Images/pastel bird Bluejay.jpg",
             "Tags":["All","soft pastels","Traditional", "Animals"],
             "Top":-150
         },
         {
             "Name":"Great Tit",
-            "Url":"/Images/pastel bird Great tit.JPG",
+            "Url":"/Images/pastel bird Great tit.jpg",
             "Tags":["All","soft pastels","Traditional", "Animals"],
             "Top":-140
         },  
@@ -273,7 +273,7 @@
         },
         {
             "Name":"robin",
-            "Url":"/Images/pastel bird robin.JPG",
+            "Url":"/Images/pastel bird Robin.jpg",
             "Tags":["All","soft pastels","Traditional", "Animals"],
             "Top":-120
         },  
@@ -476,12 +476,6 @@
             "Tags":["All","Pencil","Traditional","Fanart","Portraits"],
             "Top":-40
         },
-        {
-            "Name":"troupial",
-            "Url":"/Images/pastel bird troupial.JPG",
-            "Tags":["All","soft pastels","Traditional", "Animals"],
-            "Top":-150
-        },  
         {
             "Name":"ASCII free parking",
             "Url":"/Images/ASCII free parking 26-4-2021.PNG",

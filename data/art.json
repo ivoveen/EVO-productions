@@ -32,7 +32,7 @@
         }, 
 		{
             "Name":"Good vibes",
-            "Url":"/Images/Good vibes.JPG",
+            "Url":"/Images/Good vibes.jpg",
             "Tags":["All","Pencil","Traditional"],
             "Top":-4
         }, 
@@ -110,7 +110,7 @@
         },
         {
             "Name":"Connie",
-            "Url":"/Images/pastel bird connie.JPG",
+            "Url":"/Images/pastel bird connie.jpg",
             "Tags":["All","soft pastels","Traditional", "Animals"],
             "Top":-120
         },  
@@ -189,7 +189,7 @@
         },
         {
             "Name":"Pencil Cockatoo",
-            "Url":"/Images/Bird Pencil Cockatoo.JPG",
+            "Url":"/Images/Bird Pencil Cockatoo.jpg",
             "Tags":["All","Traditional","Pencil", "Animals"],
             "Top":-100
         },  
@@ -207,7 +207,7 @@
         },
         {
             "Name":"Cockatiels",
-            "Url":"/Images/pastel bird Cockatiels.JPG",
+            "Url":"/Images/pastel bird Cockatiels.jpg",
             "Tags":["All","soft pastels","Traditional", "Animals"],
             "Top":-100
         },  
@@ -538,7 +538,7 @@
         },
         {
             "Name":"Cockatiel",
-            "Url":"/Images/pastel bird cockatiel.JPG",
+            "Url":"/Images/pastel bird cockatiel.jpg",
             "Tags":["All","soft pastels","Traditional", "Animals"],
             "Top":-80
         },  

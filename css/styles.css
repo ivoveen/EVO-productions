@@ -89,6 +89,11 @@ canvas {
     margin: 0;
     padding-top: 30px;
     margin-bottom: 30px;
+    
+}
+
+.main-header a{
+    text-decoration: none;
 }
 
 .main-nav {
@@ -126,6 +131,7 @@ canvas {
     background-color: rgb(30, 13, 48);
     color: white;
     padding: .25em 0;
+    
 }
 
 .main-footer h3 {
@@ -138,6 +144,7 @@ canvas {
 
 .main-footer a {
     color: white;
+    text-decoration: none;
 }
 
 .main-footer-container {

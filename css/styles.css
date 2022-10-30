@@ -20,17 +20,21 @@
 
 html,
 body {
+    scroll-behavior: smooth;
+    font-family: Akkurat;
+
     margin: 0;
     padding: 0;
     border: 0px;
     height: 100%;
-
+    min-height: 100vh;
     font: 400 13.3333px Arial
 }
 
 body {
     display: flex;
     flex-direction: column;
+    
     background-color: rgb(12, 1, 14);
 
 }
@@ -58,12 +62,6 @@ canvas {
     background-blend-mode: multiply;
 }
 
-.home-header h1 {
-    color: white;
-    align-items: center;
-
-}
-
 .nav ul {
     margin: 0;
     padding: 0;
@@ -89,6 +87,7 @@ canvas {
     margin: 0;
     padding-top: 30px;
     margin-bottom: 30px;
+   
     
 }
 
@@ -106,7 +105,7 @@ canvas {
 
 .main-nav a {
     color: white;
-
+    font-family: Akkurat;
 }
 
 .main-nav li {
@@ -138,13 +137,13 @@ canvas {
     color: white;
     font-weight: lighter;
     font-size: 1.1em;
-    ;
     margin-left: 1vw;
 }
 
 .main-footer a {
     color: white;
     text-decoration: none;
+    font-family: Akkurat;
 }
 
 .main-footer-container {
@@ -165,7 +164,7 @@ canvas {
 .text-picture-button {
     text-align: center;
     align-content: center;
-    margin: 1vw;
+    margin: 1em;
     height: fit-content;
 
 
@@ -176,18 +175,20 @@ canvas {
 
     -webkit-box-shadow: 6px 6px 2px 2px rgb(89, 65, 114);
     box-shadow: 6px 6px 2px 1px rgb(89, 65, 114);
-    padding: 1vw;
+    padding: 2em;
     transition-duration: 200ms;
 }
 
 .text-picture-button h1 {
-    font-size: 2vw;
+    font-size: 2.5em;
     color: white;
     font-weight: lighter;
     font-family: HeronSansCond;
-    margin: 0.5vw;
-    text-decoration: none;
+    margin: 10px;
+}
 
+.text-picture-button h2{
+    font-size: 1.5em;   
 }
 
 .picture-buttons a {
@@ -195,15 +196,14 @@ canvas {
 }
 
 .text-picture-button img {
-    height: 10vw;
+    height: 15em;
     width: auto;
     border-radius: 25px;
+    
 }
 
 
 .text-picture-button:hover {
-    
-    
     position: relative;
     box-shadow: none;
     transform: translate(6px,6px);
@@ -279,6 +279,37 @@ canvas {
 }
 
 
+.topButton {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+
+    background-color: rgb(30, 13, 48);
+    border-radius: 25px;
+
+    border: 5px solid rgb(89, 65, 114);
+
+    padding-top: 5px;
+    margin: 5px;
+
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: HeronSansCond;
+
+  }
+
+  .topButton:hover {
+    background-color: rgb(89, 65, 114);
+    cursor: pointer;
+
+    border: 5px solid rgb(117, 98, 138);
+  }
+
+
 
 .buttons h2 {
     color: white;
@@ -292,18 +323,10 @@ canvas {
     color: white;
     background-color: rgb(70, 8, 61);
     margin: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 75%;
     padding: 15px;
     position: relative;
-
-}
-
-.welcome-sign p {
-    font-family: akkurat;
-    color: white;
-    text-align: center;
-    font-size: large;
+    justify-content: center;
 }
 
 .welcome-sign h1 {
@@ -311,6 +334,14 @@ canvas {
     font-size: 2em;
     color: white;
     text-align: center;
+}
+
+.welcome-sign p {
+    font-family: akkurat;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 20px;
 }
 
 .welcome-sign:before {
@@ -337,6 +368,9 @@ canvas {
 }
 
 
+
+
+
 .home-nav {
     margin: 20px;
     border: 0;
@@ -353,7 +387,7 @@ canvas {
     width: 300px;
     height: 300px;
     color: white;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 .home-nav:hover {
@@ -401,22 +435,12 @@ canvas {
     transform: scale(1.2);
 }
 
-
-.trailer h1 {
-    font-size: 2vw;
-    color: white;
-    font-weight: lighter;
-    font-family: HeronSansCond;
-    margin: 0;
-
-
-}
-
 .trailer {
     text-align: center;
     align-content: center;
-    margin: 1vw;
+    margin: 1em;
     height: fit-content;
+    
     padding: 0.5vw;
 
 
@@ -430,16 +454,23 @@ canvas {
     transition-duration: 200ms;
 }
 
+.trailer h1 {
+    font-size: 2.5em;
+    color: white;
+    font-weight: lighter;
+    font-family: HeronSansCond;
+    margin: 0;
 
+
+}
 
 .trailer img {
-    border-radius: 25px;
+    border-radius: 25px;  
+    width: 40vw;
 }
 
 
-.max-width {
-    width: 50vw;
-}
+
 
 .photo-gallery img {
     width: 20vw;
@@ -447,30 +478,30 @@ canvas {
 
 }
 
-.page-title h1 {
-    font-size: 5vw;
-    color: white;
-    font-weight: lighter;
-    font-family: HeronSansCond;
-}
 
-.page-title h2 {
-    font-family: HeronSansCond;
-}
+
 
 .page-title {
     margin-top: 20px;
-
+    font-family: akkurat;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.page-title h2 {
-    font-size: 3.2em;
+.page-title h1 {
+    font-size: 5em;
     color: white;
     font-weight: lighter;
+    font-family: HeronSansCond;
+    margin: 0.5em;
+}
 
+.page-title h2 {
+    font-size: 2.5em;
+    color: white;
+    font-weight: lighter;
+    font-family: HeronSansCond;
     margin: 0px;
 }
 
@@ -543,41 +574,26 @@ canvas {
     background-color: rgb(70, 8, 61);
     padding: 20px;
     border-radius: 25px;
-    margin: 1vw;
+    margin: 1em;
+    margin-bottom: 3em;
+    width: 50%;
 }
 
 .game-info h1 {
     color: white;
     font-family: HeronSansCond;
-    font-size: 2vw;
+    font-size: 2.5em;
 }
 
-.game-info h2 {
-    color: white;
-    font-family: HeronSansCond;
-    font-size: 1.5vw;
-    margin-bottom: 1vw;
-    margin-top: 1vw;
-}
+
 
 .game-info p {
-    font-size: 1vw;
+    font-size: 1.5em;
     color: white;
 }
 
 
-.about-me-text-head h1 {
-    padding-left: 10%;
-    padding-right: 10%;
-    font-size: 5em;
 
-}
-
-.about-me-text {
-    background-color: rgb(70, 8, 61);
-    padding: 20px;
-    border-radius: 25px;
-}
 
 
 .info-panel {
@@ -587,26 +603,31 @@ canvas {
     padding-left: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
+    font-family: Akkurat;
 
     -webkit-box-shadow: 6px 6px 2px 2px rgb(89, 65, 114);
     box-shadow: 6px 6px 2px 1px rgb(89, 65, 114);
 
 }
 
-.info-panel h4 {
+.info-panel h2 {
     margin: 0px;
     padding: 10px;
     color: white;
-    font-size: 1.4em;
+    font-size: 2em;
+    font-family: HeronSansCond;
 }
 
 .info-panel h3 {
     margin: 0px;
     padding: 10px;
     color: white;
+    font-size: 1.5em;
+    font-weight: 1000;
 }
 
 .info-panel ul {
+    font-size: 1em;
     margin: 0px;
     padding: 10px;
     text-decoration: none;
@@ -622,18 +643,32 @@ canvas {
 .info-panels {
     display: flex;
     flex-direction: column;
-    margin-left: 1%;
-    margin-bottom: 1%;
+    margin-left: 1em;
+    margin-bottom: 1em;
 }
 
+
+.about-me-text {
+    background-color: rgb(70, 8, 61);
+    padding: 20px;
+    border-radius: 25px;
+    width: 50%;
+}
+
+.about-me-text-head h1 {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 5em;
+    
+
+}
+
+
+
+
 .about-me-content {
-    margin-top: 1%;
-    margin-bottom: 1%;
-    margin-left: 10%;
-    margin-right: 10%;
-    display: flex;
-
-
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
 
 .about-me-content h4 {
@@ -660,16 +695,21 @@ canvas {
     margin-left: auto;
     margin-right: auto;
 
-    width: 15vw;
+    width: 75%;
     border-radius: 25px;
-    margin: 1vw;
+    margin: 1em;
 }
 
 .HeronSansCond {
     font-family: HeronSansCond;
+    color: white;
+    font-size: 2.5em;
 }
 
 .flex-rows {
+    flex-wrap: wrap;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    
 }

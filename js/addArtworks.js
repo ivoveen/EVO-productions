@@ -76,7 +76,7 @@ class Artwork {
             <div class="picture-button">
                 <div class="picture-container">
                     <a href="Website WIP page.html">
-                        <img src="${artWork.Url}" style="position: relative; top: ${artWork.Top}px;">
+                        <img src="${artWork.Url}" loading="auto" style="position: relative; top: ${artWork.Top}px;">
                     </a>
                 </div>
                  

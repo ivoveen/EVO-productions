@@ -70,13 +70,17 @@ class Artwork {
     }
 
     renderArtWork(artWork) {
-
+        //get the resized image url
+        let str = artWork.Url;
+        str = str.slice(8);
+        str = str.slice(0, -3);
+        str = "/Images/compressed-art/" + str + "png"
         var output = `
         
             <div class="picture-button">
                 <div class="picture-container">
                     <a href="Website WIP page.html">
-                        <img src="${artWork.Url}" loading="auto" style="position: relative; top: ${artWork.Top}px;">
+                        <img src="${str}" loading="auto" style="position: relative; top: ${artWork.Top}px;">
                     </a>
                 </div>
                  

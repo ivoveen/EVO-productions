@@ -50,7 +50,7 @@
         },  
         {
             "Name":"Imagine Dragons poster",
-            "Url":"Images/imagine dragons fx smoke only 5.png",
+            "Url":"/Images/imagine dragons fx smoke only 5.png",
             "Tags":["All","Digital","3D Renders", "School projects"],
             "Top":-120
         },   
@@ -62,7 +62,7 @@
         },         
         {
             "Name":"Alien Structure",
-            "Url":"/Images/Alien tower.jpg",
+            "Url":"/Images/Alien tower.jpg", 
             "Tags":["All","Crafts","Traditional","School projects"],
             "Top":-60
         },  
@@ -129,7 +129,7 @@
         
         {
             "Name":"Idle Warrior",
-            "Url":"Images/warrior idle.gif",
+            "Url":"/Images/warrior idle.gif",
             "Tags":["All","Pixel Art","Digital","Animation"],
             "Top":-20
         },
@@ -237,7 +237,7 @@
         },
         {
             "Name":"Katniss Everdeen",
-            "Url":"Images/katniss everdeen.jpg",
+            "Url":"/Images/katniss everdeen.jpg",
             "Tags":["All","Traditional","Pencil","Fanart","Portraits"],
             "Top":-140
         },
@@ -291,25 +291,25 @@
         },
         {
             "Name":"Jack Sparrow",
-            "Url":"Images/Jack Sparrow 13-2-2020.jpg",
+            "Url":"/Images/Jack Sparrow 13-2-2020.jpg",
             "Tags":["All","Pencil","Traditional", "Portraits","Fanart"],
             "Top":-70
         },
         {
             "Name":"King snail",
-            "Url":"Images/King Snail.jpg",
+            "Url":"/Images/King Snail.jpg",
             "Tags":["All","Pencil","Traditional", "Animals"],
             "Top":-70
         },
         {
             "Name":"Kappa cursed watercolour",
-            "Url":"Images/kappa no eyes screen shot.JPG",
+            "Url":"/Images/kappa no eyes screen shot.JPG",
             "Tags":["All","Digital","Rebelle", "Portraits"],
             "Top":-0
         },
         {
             "Name":"Human face practice Collection",
-            "Url":"Images/human face study 7.PNG",
+            "Url":"/Images/human face study 7.PNG",
             "Tags":["All","Krita","Digital","Self-study Anatomy"],
             "Top": 0
         },
@@ -327,7 +327,7 @@
         },
         {
             "Name":"Levi Ackermann",
-            "Url":"Images/Levi.jpg",
+            "Url":"/Images/Levi.jpg",
             "Tags":["All","Pencil","Traditional","Portraits","Fanart"],
             "Top":-70
         },
@@ -339,7 +339,7 @@
         },
         {
             "Name":"Kevin Mccalisstar",
-            "Url":"Images/Kevin Mccalisstar.jpg",
+            "Url":"/Images/Kevin Mccalisstar.jpg",
             "Tags":["All","Pencil","Traditional","Fanart"],
             "Top":-70
         },
@@ -351,7 +351,7 @@
         },
         {
             "Name":"Dylan the Cyclops",
-            "Url":"Images/Dylan 21-2-2021.png",
+            "Url":"/Images/Dylan 21-2-2021.png",
             "Tags":["All","Krita","Digital"],
             "Top":-30
         },
@@ -381,7 +381,7 @@
         },
         {
             "Name":"Livingroom",
-            "Url":"Images/Livingroom 27-4-2021.jpg",
+            "Url":"/Images/Livingroom 27-4-2021.jpg",
             "Tags":["All","Traditional","Pen"],
             "Top":0
         },
@@ -460,13 +460,13 @@
         
         {
             "Name":"Kermit has had enough",
-            "Url":"Images/Kermit machine gun.jpg",
+            "Url":"/Images/Kermit machine gun.jpg",
             "Tags":["All","Traditional", "Pencil","Fanart"],
             "Top":-190
         },
         {
             "Name":"I'm holey",
-            "Url":"Images/I'm holey.jpg",
+            "Url":"/Images/I'm holey.jpg",
             "Tags":["All","Traditional", "Pencil"],
             "Top":-0
         },
@@ -508,7 +508,7 @@
         },
         {
             "Name":"Journey",
-            "Url":"Images/Journey.jpg",
+            "Url":"/Images/Journey.jpg",
             "Tags":["All","Traditional","Pencil"],
             "Top":-100
         },

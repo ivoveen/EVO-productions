@@ -34,7 +34,7 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    
+
     background-color: rgb(12, 1, 14);
 
 }
@@ -80,7 +80,7 @@ canvas {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+
 }
 
 .flex-column {
@@ -100,7 +100,7 @@ canvas {
     flex-direction: column;
     align-items: center;
 
-    
+
     font-weight: lighter;
     font-family: HeronSansCond;
 }
@@ -138,6 +138,7 @@ canvas {
 .info-text p {
     font-size: 1.5em;
 }
+
 .info-text a {
     color: white;
 }
@@ -152,11 +153,11 @@ canvas {
     margin: 0;
     padding-top: 30px;
     margin-bottom: 30px;
-   
-    
+
+
 }
 
-.main-header a{
+.main-header a {
     text-decoration: none;
 }
 
@@ -198,7 +199,7 @@ canvas {
     background-color: rgb(30, 13, 48);
     color: white;
     padding: .25em 0;
-    
+
 }
 
 .main-footer h3 {
@@ -250,7 +251,7 @@ canvas {
     width: 75%;
     padding: 15px;
     position: relative;
-   
+
 
     font-family: akkurat;
     text-align: center;
@@ -285,10 +286,10 @@ canvas {
     border: 0;
     transition-duration: 300ms;
     font-family: HeronSansCond;
-    
+
 }
 
-.home-nav a{
+.home-nav a {
     text-decoration: none;
 }
 
@@ -352,6 +353,7 @@ canvas {
 .tag-section {
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 20px;
 }
 
 .tag {
@@ -372,6 +374,7 @@ canvas {
     margin: 10px;
     padding: 0;
     font-family: akkurat;
+    font-size: 1em;
 }
 
 .tag:hover {
@@ -416,7 +419,8 @@ canvas {
     overflow-y: hidden;
     min-height: 230px;
     border-radius: 25px;
-
+    
+    
     margin: 10px;
 }
 
@@ -434,9 +438,9 @@ canvas {
 
 .topButton {
     position: fixed;
-    bottom: 20px; 
-    right: 30px; 
-    z-index: 99; 
+    bottom: 20px;
+    right: 30px;
+    z-index: 98;
 
     background-color: rgb(30, 13, 48);
     border-radius: 25px;
@@ -453,15 +457,75 @@ canvas {
     font-size: 25px;
     font-family: HeronSansCond;
 
-  }
+}
 
-  .topButton:hover {
+.topButton:hover {
     background-color: rgb(89, 65, 114);
     cursor: pointer;
 
     border: 5px solid rgb(117, 98, 138);
-  }
+}
 
+/*----------- picture info --------------------------------*/
+
+.pictureInfo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    z-index: 99;
+
+    background-color: rgb(30, 13, 48);
+    border-radius: 25px;
+
+    border: 5px solid rgb(89, 65, 114);
+    margin: 5px;
+
+    color: white;
+
+    text-decoration: none;
+    font-size: 25px;
+    font-family: HeronSansCond;
+}
+
+.pictureInfo img {
+    align-self: center;
+}
+
+.pictureInfo h1 {
+    margin: 1vw;
+    color: white;
+}
+
+.closeButton {
+    border: none;
+    background: none;
+
+    background-color: rgb(30, 13, 48);
+    border-radius: 15px;
+
+    border: 1px solid rgb(89, 65, 114);
+
+    padding-top: 5px;
+    margin: 5px;
+    margin-right: 25px;
+}
+
+.closeButton h4 {
+    color: white;
+    margin: 10px;
+    padding: 0;
+    font-family: HeronSansCond;
+    font-size: 1.5em;
+}
+
+.closeButton:hover {
+    background-color: rgb(89, 65, 114);
+    cursor: pointer;
+
+    border: 1px solid rgb(117, 98, 138);
+}
 
 /*----------------------------------------------------
                 Game page specific css
@@ -495,8 +559,8 @@ canvas {
     margin: 10px;
 }
 
-.text-picture-button h2{
-    font-size: 1.5em;   
+.text-picture-button h2 {
+    font-size: 1.5em;
 }
 
 .text-picture-button img {
@@ -510,7 +574,7 @@ canvas {
 .button-inset:hover {
     position: relative;
     box-shadow: none;
-    transform: translate(6px,6px);
+    transform: translate(6px, 6px);
 }
 
 /*----------- trailer css ---------------------------------*/
@@ -519,7 +583,7 @@ canvas {
     align-content: center;
     margin: 1em;
     height: fit-content;
-    
+
     padding: 0.5vw;
 
 
@@ -544,7 +608,7 @@ canvas {
 }
 
 .trailer img {
-    border-radius: 25px;  
+    border-radius: 25px;
     width: 40vw;
 }
 
@@ -579,7 +643,7 @@ canvas {
     box-shadow: 6px 6px 2px 1px rgb(89, 65, 114);
 
     text-decoration: none;
-    
+
 }
 
 .info-panel h2 {
@@ -633,10 +697,10 @@ canvas {
     color: white;
 
     margin: 10px;
-    
+
 }
 
-.WIP-image{
+.WIP-image {
     border-bottom: 1px solid white;
     padding: 10px;
     width: 600px;

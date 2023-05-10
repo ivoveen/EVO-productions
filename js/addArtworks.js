@@ -50,8 +50,6 @@ class Artwork {
 
 
     filterArt() {
-
-
         var artElement = document.getElementById("artSection");
         artElement.innerHTML = "";
 
@@ -79,7 +77,7 @@ class Artwork {
         
             <div class="picture-button">
                 <div class="picture-container">
-                    <a href="Website WIP page.html">
+                    <a onclick="artRenderer.renderPictureInfo('${artWork}')">
                         <img src="${str}" loading="auto" style="position: relative; top: ${artWork.Top}px;">
                     </a>
                 </div>
@@ -87,13 +85,12 @@ class Artwork {
             </div>
         
         `
-// <h4>${artWork.Name}</h4>
+        // <h4>${artWork.Name}</h4>
         var myElement = document.createElement('div');
         myElement.innerHTML = output
 
         var artElement = document.getElementById("artSection");
         artElement.appendChild(myElement);
-
     }
 
 
@@ -119,7 +116,7 @@ class Artwork {
 
         this.filteredTags.forEach((tag) => { this.renderTag(tag); });
     }
- z               
+
     renderTag(tag) {
 
         let style = this.selectedTags.includes(tag) ? "selected-tag" : "tag"
@@ -138,6 +135,68 @@ class Artwork {
         artElement.appendChild(myElement);
 
     }
+
+
+    //picture info panel
+    renderPictureInfo(Name) {
+        var tag = 'hi';
+        var output = ` 
+        
+
+    <div class="pictureInfo flex-column">
+        <h1> ` + Name + `</h1>
+        <img class="about-me-image" src="/Images/ivo 19-2-2021.JPG">
+        <div class="tag-section flex-rows">
+            <div>
+                <button onclick="artRenderer.toggleFilter('${tag}')" class="closeButton">
+                     <h4>Close</h4>
+                </button>
+            </div>
+            <div>
+                <button onclick="artRenderer.toggleFilter('${tag}')" class="tag">
+                     <h4>${tag}</h4>
+                </button>
+            </div>
+             <div>
+                <button onclick="artRenderer.toggleFilter('${tag}')" class="tag">
+                     <h4>${tag}</h4>
+                </button>
+            </div>
+             <div>
+                <button onclick="artRenderer.toggleFilter('${tag}')" class="tag">
+                     <h4>${tag}</h4>
+                </button>
+            </div>
+             <div>
+                <button onclick="artRenderer.toggleFilter('${tag}')" class="tag">
+                     <h4>${tag}</h4>
+                </button>
+            </div>
+             
+        </div>
+        
+    </div>
+                `
+       
+       
+                var myElement = document.getElementById("pictureInfo");
+                console.log(myElement)
+                myElement.innerHTML = output
+        
+
+    }
+
+
+    unrenderPictureInfo() {
+        var output = `
+                
+        `
+
+        var myElement = document.getElementById("pictureInfo");
+        myElement.innerHTML = output
+    }
+
+
 
 
 }

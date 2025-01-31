@@ -91,27 +91,28 @@
                 </div>
 
                 <div class="info-panel">
-                    <h3>Age: 18 years old </h3>
+                    <h3 id="age">Age: 19 years old </h3>
                     <h3>Languages: Dutch and English</h3>
-                    <h3>School: Highschool VWO(Pre-University Education) 12th grade(Dutch equivalent: 6th class)</h3>
+                    <h3>Study: Creative Media and Game Technologies at Breda University of Applied Sciences</h3>
                 </div>
 
                 <div class="info-panel">
                     <h2>Programming experience</h2>
                     <h3>Programming languages:</h3>
                     <ul>
+                        <li>C++</li>
                         <li>C#</li>
+                        <li>Javascript</li>
                         <li>Html</li>
                         <li>CSS</li>
                         <li>PHP</li>
                         <li>MySQL</li>
-                        <li>C</li>
-                        <li>Javascript</li>
                         <li>Qbasic</li>
                     </ul>
                     <h3>Engines:</h3>
                     <ul>
                         <li>Unity3D</li>
+                        <li>Unreal engine</li>
                         <li>Gamemaker</li>
                     </ul>
                 </div>
@@ -122,7 +123,6 @@
                     <ul>
                         <li>Krita</li>
                         <li>Blender</li>
-
                     </ul>
 
                     <h3>Traditional:</h3>
@@ -160,3 +160,25 @@
 </body>
 
 </html>
+
+<script>
+    window.onload = function() {
+        //update age automatically
+        let birthYear = 2005;
+        let birthMonth = 3;
+        let birthDay = 18;
+
+        let today = new Date();
+        let age = today.getFullYear() - birthYear;
+
+        // Adjust if birthday hasn't occurred yet this year
+        if (
+            (today.getMonth() + 1 < birthMonth) ||
+            (today.getMonth() + 1 === birthMonth && today.getDate() < birthDay)
+        ) {
+            age--;
+        }
+        let text = `Age: ${age} years old`
+        document.getElementById("age").innerHTML = text;
+    };
+</script>
